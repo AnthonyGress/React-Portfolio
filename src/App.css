@@ -13,6 +13,11 @@ body {
   color: var(--font-color) !important;
 }
 
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,7 +29,7 @@ body {
   }
 }
 
-.App-header {
+.hero {
   /* background-color: #282c34; */
   background-image: url(./images/splash1.jpg);
   min-height: 100vh;

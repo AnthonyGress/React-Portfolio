@@ -1,38 +1,32 @@
 import Carousel from "react-bootstrap/Carousel";
+import CarouselSlide from "./CarouselSlide";
 import mac from "../images/carousel/macos-dark.png";
 import windows from "../images/carousel/windows.png";
 import linux from "../images/carousel/linux-dark.png";
 
+const skill1 = {
+  name: "macos",
+  image: mac,
+};
+const skill2 = {
+  name: "windows",
+  image: windows,
+};
+const skill3 = {
+  name: "linux",
+  image: linux,
+};
+const skills = [skill1, skill2, skill3];
 const CarouselPage = () => {
   return (
     <section id="carousel">
       <h1 className="fs-1 text-center">Proficiencies</h1>
-      <Carousel>
+      <Carousel pause="false">
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
-            <img
-              src={mac}
-              className="img-fluid slider-image"
-              draggable="false"
-              id="macos-img"
-              alt="macos"
-              loading="lazy"
-            />
-            <img
-              src={linux}
-              className="img-fluid slider-image"
-              draggable="false"
-              id="linux-img"
-              alt="linux"
-              loading="lazy"
-            />
-            <img
-              src={windows}
-              className="img-fluid slider-image"
-              draggable="false"
-              alt="windows 10"
-              loading="lazy"
-            />
+            {skills.map((skill) => (
+              <CarouselSlide name={skill.name} image={skill.image} />
+            ))}
           </div>
           {/* 
           <Carousel.Caption>
@@ -42,67 +36,17 @@ const CarouselPage = () => {
         </Carousel.Item>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
-            <img
-              src={mac}
-              className="img-fluid slider-image"
-              draggable="false"
-              id="macos-img"
-              alt="macos"
-              loading="lazy"
-            />
-            <img
-              src={linux}
-              className="img-fluid slider-image"
-              draggable="false"
-              id="linux-img"
-              alt="linux"
-              loading="lazy"
-            />
-            <img
-              src={windows}
-              className="img-fluid slider-image"
-              draggable="false"
-              alt="windows 10"
-              loading="lazy"
-            />
+            {skills.map((skill) => (
+              <CarouselSlide name={skill.name} image={skill.image} />
+            ))}
           </div>
-          {/* <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
-            <img
-              src={mac}
-              className="img-fluid slider-image"
-              draggable="false"
-              id="macos-img"
-              alt="macos"
-              loading="lazy"
-            />
-            <img
-              src={linux}
-              className="img-fluid slider-image"
-              draggable="false"
-              id="linux-img"
-              alt="linux"
-              loading="lazy"
-            />
-            <img
-              src={windows}
-              className="img-fluid slider-image"
-              draggable="false"
-              alt="windows 10"
-              loading="lazy"
-            />
+            {skills.map((skill) => (
+              <CarouselSlide name={skill.name} image={skill.image} />
+            ))}
           </div>
-          {/* <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
     </section>
