@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
@@ -10,7 +9,7 @@ const About = () => {
       <div className="fs-1 text-center">About Me</div>
       <Container>
         <Row>
-          <Col size="lg-6">
+          <Col size="col-lg-6">
             <div className="w-50">
               <img
                 src={picture}
@@ -19,7 +18,7 @@ const About = () => {
               />
             </div>
           </Col>
-          <Col size="lg-6">
+          <Col size="col-lg-6">
             <p className="about-content">
               I have always had a passion for technology. Throughout my life, I
               have been constantly tinkering with, building, and fixing

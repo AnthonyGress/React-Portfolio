@@ -1,6 +1,18 @@
 /* .App {
 } */
 
+:root {
+  --secoundary: #6c6ca2;
+  --bg-color: #161625;
+  --font-color: #fff;
+  --card-color: #343a40;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,6 +40,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
+}
+
+.card {
+  background-color: var(--card-color) !important;
+}
+
+.carousel-indicators {
+  bottom: -30px !important;
 }
 
 .service1 {
@@ -68,8 +88,15 @@
   min-height: 600px;
 }
 
-.App-link {
-  color: #61dafb;
+.slider-image {
+  max-height: 160px;
+  width: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.thumb {
+  width: 15%;
 }
 
 @keyframes App-logo-spin {
@@ -78,5 +105,30 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+/* On smaller screens */
+@media screen and (max-width: 1024px) {
+  .thumb {
+    width: 18%;
+  }
+}
+/* On large screens */
+@media screen and (min-width: 1024px) {
+  .slider-image {
+    max-height: 160px;
+    width: auto;
+  }
+}
+/* On mobile phone screens */
+@media screen and (max-width: 968px) {
+  .carousel {
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider-image {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    width: 175px;
   }
 }
