@@ -30,10 +30,13 @@ a {
   align-items: center !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 13s linear;
   }
+} */
+.App-logo {
+  animation: App-logo-spin infinite 13s linear;
 }
 
 .hero {
