@@ -1,7 +1,8 @@
 import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
-import logo from "../images/logos/logo.png";
+// import logo from "../images/icons/android-chrome-512x512.png";
+import logo from "../images/logos/logo2.png";
 
 function Hero() {
   return (

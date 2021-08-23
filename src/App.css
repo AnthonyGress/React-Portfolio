@@ -19,6 +19,7 @@ a {
 }
 
 .App-logo {
+  margin-top: 125px;
   height: 40vmin;
   pointer-events: none;
 }
@@ -31,7 +32,7 @@ a {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 13s linear;
   }
 }
 
@@ -70,6 +71,12 @@ a {
 
 .portfolio-img {
   height: 390px !important;
+}
+
+.service-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service1 {

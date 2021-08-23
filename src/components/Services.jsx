@@ -9,11 +9,13 @@ const Services = () => {
       <div className="service1"></div>
       <Container>
         <Row>
-          <Col size="col-md-6">
-            <h2 className="row-services-heading">Tech Support</h2>
-            <h5 className="subheading">
-              I provide solutions for tech issues at home and in the office
-            </h5>
+          <Col size="col-md-6 service-heading">
+            <div>
+              <h2>Tech Support</h2>
+              <h5 className="subheading">
+                I provide solutions for tech issues at home and in the office
+              </h5>
+            </div>
           </Col>
           <Col size="col-md-6">
             <ul className="list-group">
@@ -39,9 +41,11 @@ const Services = () => {
       <div className="service2"></div>
       <Container>
         <Row>
-          <Col size="col-md-6">
-            <h2 className="row-services-heading">Device Repair</h2>
-            <h5 className="subheading">If you can break it, I can fix it</h5>
+          <Col size="col-md-6 service-heading">
+            <div>
+              <h2>Device Repair</h2>
+              <h5 className="subheading">If you can break it, I can fix it</h5>
+            </div>
           </Col>
           <Col size="col-md-6">
             <ul className="list-group">
@@ -64,9 +68,11 @@ const Services = () => {
       <div className="service3"></div>
       <Container>
         <Row>
-          <Col size="col-md-6">
-            <h2 className="row-services-heading">Software Development</h2>
-            <h5 className="subheading">I design and build applications</h5>
+          <Col size="col-md-6 service-heading">
+            <div>
+              <h2>Software Development</h2>
+              <h5 className="subheading">I design and build applications</h5>
+            </div>
           </Col>
           <Col size="col-md-6">
             <ul className="list-group">
