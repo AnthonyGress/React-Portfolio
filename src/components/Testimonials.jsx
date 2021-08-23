@@ -45,7 +45,7 @@ const testimonials = [review1, review2, review3, review4, review5, review6];
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h1 className="fs-1 text-center">Testimonials</h1>
+      <h1 className="heading">Testimonials</h1>
 
       <Container>
         <Row>

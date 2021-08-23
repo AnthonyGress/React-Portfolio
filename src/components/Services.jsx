@@ -5,7 +5,7 @@ import Col from "./Col";
 const Services = () => {
   return (
     <section id="services">
-      <h1 className="fs-1 text-center">Services</h1>
+      <h1 className="heading">Services</h1>
       <div className="service1"></div>
       <Container>
         <Row>

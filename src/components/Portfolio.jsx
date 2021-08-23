@@ -74,7 +74,7 @@ const projects = [project1, project2, project3, project4, project5, project6];
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h1 className="fs-1 text-center">Portfolio</h1>
+      <h1 className="heading">Portfolio</h1>
 
       <Container>
         <Row>

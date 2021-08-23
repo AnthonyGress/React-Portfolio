@@ -23,6 +23,12 @@ a {
   pointer-events: none;
 }
 
+.aboutImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -47,12 +53,23 @@ a {
   text-align: center;
 }
 
+.heading {
+  font-size: calc(1.375rem + 1.5vw) !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
 .card {
   background-color: var(--card-color) !important;
 }
 
 .carousel-indicators {
   bottom: -30px !important;
+}
+
+.portfolio-img {
+  height: 390px !important;
 }
 
 .service1 {
@@ -121,12 +138,12 @@ a {
 /* On large screens */
 @media screen and (min-width: 1024px) {
   .slider-image {
-    max-height: 160px;
+    max-height: 200px;
     width: auto;
   }
 }
 /* On mobile phone screens */
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 750px) {
   .carousel {
     flex-direction: column;
     align-items: center;

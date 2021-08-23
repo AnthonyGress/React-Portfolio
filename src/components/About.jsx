@@ -1,25 +1,23 @@
 import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
-import picture from "../images/chair.jpg";
+import picture from "../images/ChairLandscape.jpg";
 
 const About = () => {
   return (
     <section id="about">
-      <div className="fs-1 text-center">About Me</div>
+      <div className="heading">About Me</div>
       <Container>
         <Row>
-          <Col size="col-lg-6">
-            <div className="w-50">
-              <img
-                src={picture}
-                className="img-fluid"
-                alt="anthony sitting in chair"
-              />
-            </div>
+          <Col size="col-lg-6 aboutImgWrapper">
+            <img
+              src={picture}
+              className="img-fluid"
+              alt="anthony sitting in chair"
+            />
           </Col>
           <Col size="col-lg-6">
-            <p className="about-content">
+            <p className="about-content fs-4">
               I have always had a passion for technology. Throughout my life, I
               have been constantly tinkering with, building, and fixing
               electronics. I studied Computer Science at the University of

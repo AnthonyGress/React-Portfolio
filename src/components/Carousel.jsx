@@ -20,7 +20,7 @@ const skills = [skill1, skill2, skill3];
 const CarouselPage = () => {
   return (
     <section id="carousel">
-      <h1 className="fs-1 text-center">Proficiencies</h1>
+      <h1 className="heading">Proficiencies</h1>
       <Carousel pause="false">
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
