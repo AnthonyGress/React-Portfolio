@@ -19,7 +19,7 @@ function Card(props) {
           rel="noreferrer"
           className="btn btn-primary"
         >
-          <Github size={26} />
+          <Github size={24} />
           <span className="ms-1">{"GitHub"}</span>
         </a>
         <a
@@ -28,7 +28,7 @@ function Card(props) {
           rel="noreferrer"
           className="btn btn-primary"
         >
-          <Globe2 size={26} />
+          <Globe2 size={24} />
           <span className="ms-1">{"Live Site"}</span>
         </a>
       </div>
