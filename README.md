@@ -48,7 +48,7 @@ Use the terminal and start up the server. You can then access the API endpoints 
 To build and deploy this application to gh-pages run
 
 ```
-yarn build
+yarn deploy
 ```
 
 ## Tests
