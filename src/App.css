@@ -39,16 +39,23 @@ a {
   animation: App-logo-spin infinite 13s linear;
 }
 
-.hero {
+.heroImg {
   /* background-color: #282c34; */
   background-image: url(./images/splash1.jpg);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
   display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heroContainer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -168,4 +175,13 @@ a {
     margin-bottom: 0.75rem;
     width: 175px;
   }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 95vw !important;
 }

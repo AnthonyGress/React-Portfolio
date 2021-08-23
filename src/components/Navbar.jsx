@@ -1,17 +1,12 @@
 import logo from "../images/icons/android-chrome-512x512.png";
 import { Navbar, Nav } from "react-bootstrap";
-import { LinkContainer, IndexLinkContainer } from "react-router-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import Container from "./Container";
 
 const NavbarContent = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="md"
-      variant="dark"
-      className="justify-content-center"
-    >
-      <Container style={{ marginLeft: 0, marginRight: 0 }}>
+    <Navbar collapseOnSelect expand="md" variant="dark" className="w-100">
+      <Container style={{ maxWidth: "95vw !important" }}>
         <LinkContainer to="/">
           <Navbar.Brand href="#home">
             <img
@@ -34,7 +29,7 @@ const NavbarContent = () => {
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/services">
-              <Nav.Link>Servies</Nav.Link>
+              <Nav.Link>Services</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/portfolio">
               <Nav.Link>Portfolio</Nav.Link>

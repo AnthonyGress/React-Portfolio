@@ -6,15 +6,13 @@ import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Carousel from "./components/Carousel";
 import NavbarContent from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { LinkContainer } from "react-router-bootstrap";
-// import { Navbar, Nav } from "react-bootstrap";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <NavbarContent />
+        {/* <NavbarContent /> */}
         {/* <Hero /> */}
         {/* <About /> */}
         {/* <Services /> */}
@@ -24,6 +22,7 @@ function App() {
         <Switch>
           <Route exact="true" path="/">
             <Hero />
+            <About />
           </Route>
           <Route path="/about">
             <About />
