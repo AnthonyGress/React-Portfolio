@@ -50,7 +50,7 @@ const Testimonials = () => {
       <Container>
         <Row>
           {testimonials.map((testimonial) => (
-            <Col size="col-lg-6 mb-4" key={testimonial.index}>
+            <Col size="col-md-6 mb-4" key={testimonial.index}>
               <TestimonialCard
                 image={testimonial.image}
                 review={testimonial.review}

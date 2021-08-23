@@ -79,7 +79,7 @@ const Portfolio = () => {
       <Container>
         <Row>
           {projects.map((project) => (
-            <Col size="col-lg-6 mb-4" key={project.index}>
+            <Col size="col-md-6 mb-4" key={project.index}>
               <Card
                 heading={project.heading}
                 image={project.image}
