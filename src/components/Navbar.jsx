@@ -36,9 +36,9 @@ const NavbarContent = (props) => {
             <LinkContainer exact={true} to="/about">
               <Nav.Link className="fs-5">About</Nav.Link>
             </LinkContainer>
-            <LinkContainer exact={true} to="/services">
+            {/* <LinkContainer exact={true} to="/services">
               <Nav.Link className="fs-5">Services</Nav.Link>
-            </LinkContainer>
+            </LinkContainer> */}
             <LinkContainer exact={true} to="/portfolio">
               <Nav.Link className="fs-5">Portfolio</Nav.Link>
             </LinkContainer>

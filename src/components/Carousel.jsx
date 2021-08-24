@@ -45,16 +45,16 @@ const slide2 = [
     image: threejs,
   },
   {
-    name: "handlebars",
-    image: handlebars,
-  },
-  {
     name: "npm",
     image: npm,
   },
   {
     name: "mysql",
     image: mysql,
+  },
+  {
+    name: "handlebars",
+    image: handlebars,
   },
 ];
 const slide4 = [
