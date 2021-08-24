@@ -22,31 +22,31 @@ function App() {
             <Carousel />
             <Portfolio />
           </Route>
-          <Route exact={true} path="/about">
+          <Route path="/about">
             <NavbarContent />
             <About />
           </Route>
-          <Route exact={true} path="/services">
+          <Route path="/services">
             <NavbarContent />
             <Services />
           </Route>
-          <Route exact={true} path="/portfolio">
+          <Route path="/portfolio">
             <NavbarContent />
             <Portfolio />
           </Route>
-          <Route exact={true} path="/testimonials">
+          <Route path="/testimonials">
             <NavbarContent />
             <Testimonials />
           </Route>
-          <Route exact={true} path="/resume">
+          <Route path="/resume">
             <NavbarContent />
             <Resume />
           </Route>
-          <Route exact={true} path="/contact">
+          <Route path="/contact">
             <NavbarContent />
             <Contact />
           </Route>
-          {/* <Route exact={true} path="/mycard">
+          {/* <Route path="/mycard">
             <BusinessCard />
           </Route> */}
         </Switch>
