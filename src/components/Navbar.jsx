@@ -5,43 +5,46 @@ import Container from "./Container";
 
 const NavbarContent = () => {
   return (
-    <Navbar collapseOnSelect expand="md" variant="dark" className="w-100">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className="w-100">
       <Container style={{ maxWidth: "95vw !important" }}>
         <LinkContainer to="/">
           <Navbar.Brand href="#home">
             <img
               alt="penrose triangle logo"
               src={logo}
-              width="40"
-              height="40"
+              width="50"
+              height="50"
               className="d-inline-block"
             />
-            {" Anthony Gress"}
+            <span className="fs-5">{" Anthony Gress"}</span>
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
             <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link className="fs-5">Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
-              <Nav.Link>About</Nav.Link>
+              <Nav.Link className="fs-5">About</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/services">
-              <Nav.Link>Services</Nav.Link>
+              <Nav.Link className="fs-5">Services</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/portfolio">
-              <Nav.Link>Portfolio</Nav.Link>
+              <Nav.Link className="fs-5">Portfolio</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/testimonials">
-              <Nav.Link>Testimonials</Nav.Link>
+              <Nav.Link className="fs-5">Testimonials</Nav.Link>
+            </LinkContainer>
+            {/* <LinkContainer to="/mycard">
+              <Nav.Link className="fs-5">My Card</Nav.Link>
+            </LinkContainer> */}
+            <LinkContainer to="/resume">
+              <Nav.Link className="fs-5">Resume</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
-              <Nav.Link>Contact</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/businesscard">
-              <Nav.Link>Business Card</Nav.Link>
+              <Nav.Link className="fs-5">Contact</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
@@ -94,9 +97,5 @@ const NavbarContent = () => {
       </nav> */
   );
 };
-
-function Home() {
-  return <h2>Home</h2>;
-}
 
 export default NavbarContent;
