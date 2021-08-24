@@ -27,6 +27,10 @@ a:hover {
   max-height: 150px !important;
 }
 
+#mongodb-img {
+  max-width: 400px;
+}
+
 #contact,
 #about {
   background-color: var(--secoundary);
@@ -205,6 +209,12 @@ a:hover {
   .slider-image {
     max-height: 200px;
     width: auto;
+  }
+  .carousel-control-prev {
+    left: -5rem !important;
+  }
+  .carousel-control-next {
+    right: -5rem !important;
   }
 }
 /* On mobile phone screens */

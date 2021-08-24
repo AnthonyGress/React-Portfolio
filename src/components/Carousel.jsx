@@ -6,7 +6,7 @@ import linux from "../images/carousel/linux-dark.png";
 import react from "../images/carousel/react.png";
 import nodejs from "../images/carousel/nodejs.png";
 import mysql from "../images/carousel/mysql.png";
-import mongodb from "../images/carousel/mongodb.png";
+import mongodb from "../images/carousel/mongodblogo.png";
 import bootstrap from "../images/carousel/bootstrap.svg";
 import graphql from "../images/carousel/graphql.png";
 import handlebars from "../images/carousel/handlebars.png";
