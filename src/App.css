@@ -18,6 +18,15 @@ a {
   color: inherit !important;
 }
 
+a:hover {
+  color: #c7c7c7 !important;
+}
+
+.navbar-nav .active {
+  text-underline-offset: 6px;
+  text-decoration: underline !important;
+}
+
 .App-logo {
   margin-top: 20px;
   height: 40vmin;

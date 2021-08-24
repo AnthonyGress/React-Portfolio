@@ -19,32 +19,34 @@ function App() {
           <Route exact={true} path="/">
             <Hero />
             <About />
+            <Carousel />
+            <Portfolio />
           </Route>
-          <Route path="/about">
+          <Route exact={true} path="/about">
             <NavbarContent />
             <About />
           </Route>
-          <Route path="/services">
+          <Route exact={true} path="/services">
             <NavbarContent />
             <Services />
           </Route>
-          <Route path="/portfolio">
+          <Route exact={true} path="/portfolio">
             <NavbarContent />
             <Portfolio />
           </Route>
-          <Route path="/testimonials">
+          <Route exact={true} path="/testimonials">
             <NavbarContent />
             <Testimonials />
           </Route>
-          <Route path="/resume">
+          <Route exact={true} path="/resume">
             <NavbarContent />
             <Resume />
           </Route>
-          <Route path="/contact">
+          <Route exact={true} path="/contact">
             <NavbarContent />
             <Contact />
           </Route>
-          {/* <Route path="/mycard">
+          {/* <Route exact={true} path="/mycard">
             <BusinessCard />
           </Route> */}
         </Switch>

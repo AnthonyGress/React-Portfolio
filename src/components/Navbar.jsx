@@ -14,7 +14,7 @@ const NavbarContent = (props) => {
     >
       <Container style={{ maxWidth: "95vw !important" }}>
         <LinkContainer to="/">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               alt="penrose triangle logo"
               src={logo}
@@ -22,34 +22,36 @@ const NavbarContent = (props) => {
               height="50"
               className="d-inline-block"
             />
-            <span className="fs-5">{" Anthony Gress"}</span>
+            <span className="fs-5" style={{ color: "white" }}>
+              {" Anthony Gress"}
+            </span>
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
-            <LinkContainer to="/">
+            <LinkContainer exact={true} to="/">
               <Nav.Link className="fs-5">Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/about">
+            <LinkContainer exact={true} to="/about">
               <Nav.Link className="fs-5">About</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/services">
+            <LinkContainer exact={true} to="/services">
               <Nav.Link className="fs-5">Services</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/portfolio">
+            <LinkContainer exact={true} to="/portfolio">
               <Nav.Link className="fs-5">Portfolio</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/testimonials">
+            <LinkContainer exact={true} to="/testimonials">
               <Nav.Link className="fs-5">Testimonials</Nav.Link>
             </LinkContainer>
-            {/* <LinkContainer to="/mycard">
+            {/* <LinkContainer exact={true} to="/mycard">
               <Nav.Link className="fs-5">My Card</Nav.Link>
             </LinkContainer> */}
-            <LinkContainer to="/resume">
+            <LinkContainer exact={true} to="/resume">
               <Nav.Link className="fs-5">Resume</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/contact">
+            <LinkContainer exact={true} to="/contact">
               <Nav.Link className="fs-5">Contact</Nav.Link>
             </LinkContainer>
           </Nav>
