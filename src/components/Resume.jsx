@@ -4,7 +4,6 @@ import Row from "./Row";
 import Col from "./Col";
 
 const Resume = () => {
-  const download = () => {};
   return (
     <section>
       <h1 className="heading">Resume</h1>
