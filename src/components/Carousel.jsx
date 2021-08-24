@@ -4,7 +4,7 @@ import mac from "../images/carousel/macos-dark.png";
 import windows from "../images/carousel/windows.png";
 import linux from "../images/carousel/linux-dark.png";
 import react from "../images/carousel/react.png";
-import nodejs from "../images/carousel/nodejs.svg";
+import nodejs from "../images/carousel/nodejs.png";
 import mysql from "../images/carousel/mysql.png";
 import mongodb from "../images/carousel/mongodb.png";
 import bootstrap from "../images/carousel/bootstrap.svg";
@@ -111,7 +111,7 @@ const CarouselPage = () => {
   return (
     <section id="carousel" className="pb-2">
       <h1 className="heading">Proficiencies</h1>
-      <Carousel pause="true">
+      <Carousel>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
             {slide1.map((skill) => (

@@ -22,6 +22,11 @@ a:hover {
   color: #c7c7c7 !important;
 }
 
+#bootstrap-img,
+#mysql-img {
+  max-height: 150px !important;
+}
+
 #contact,
 #about {
   background-color: var(--secoundary);
@@ -105,7 +110,8 @@ a:hover {
 }
 
 #about .heading,
-#contact .heading {
+#contact .heading,
+#resume .heading {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -169,11 +175,11 @@ a:hover {
 
 .slider-image {
   /* max-height: 160px; */
-  max-width: 220px !important;
   height: auto;
   max-height: 260px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  align-self: center;
 }
 
 .thumb {
