@@ -3,9 +3,15 @@ import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Container from "./Container";
 
-const NavbarContent = () => {
+const NavbarContent = (props) => {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" className="w-100">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+      className="w-100"
+      style={props.style}
+    >
       <Container style={{ maxWidth: "95vw !important" }}>
         <LinkContainer to="/">
           <Navbar.Brand href="#home">

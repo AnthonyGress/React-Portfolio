@@ -8,8 +8,8 @@ import NavbarContent from "./Navbar";
 function Hero() {
   return (
     <>
+      <NavbarContent style={{ position: "absolute" }} />
       <section className="heroImg" id="home">
-        <NavbarContent />
         <div className="container" style={{ maxWidth: "95vw" }}>
           <Row>
             <Col size="lg-12">
