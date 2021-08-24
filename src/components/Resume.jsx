@@ -5,7 +5,7 @@ import Col from "./Col";
 
 const Resume = () => {
   return (
-    <section>
+    <section id="resume" className="pb-5">
       <h1 className="heading">Resume</h1>
       <Container>
         <Row>

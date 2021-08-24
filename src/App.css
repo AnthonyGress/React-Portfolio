@@ -22,6 +22,11 @@ a:hover {
   color: #c7c7c7 !important;
 }
 
+#contact,
+#about {
+  background-color: var(--secoundary);
+}
+
 .navbar-nav .active {
   text-underline-offset: 6px;
   text-decoration: underline !important;
@@ -46,6 +51,11 @@ a:hover {
 } */
 .App-logo {
   animation: App-logo-spin infinite 13s linear;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .card {
@@ -89,13 +99,19 @@ a:hover {
 
 .heading {
   font-size: calc(1.375rem + 1.5vw) !important;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
+#about .heading,
+#contact .heading {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .carousel-indicators {
-  bottom: -30px !important;
+  bottom: -50px !important;
 }
 
 .portfolio-img {
@@ -152,8 +168,10 @@ a:hover {
 }
 
 .slider-image {
-  max-height: 160px;
-  width: auto;
+  /* max-height: 160px; */
+  max-width: 220px !important;
+  height: auto;
+  max-height: 260px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -193,8 +211,5 @@ a:hover {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     width: 175px;
-  }
-  .heroImg {
-    min-height: 100vh;
   }
 }

@@ -7,39 +7,41 @@ import Testimonials from "./components/Testimonials";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Carousel from "./components/Carousel";
-import BusinessCard from "./components/BusinessCard";
+// import BusinessCard from "./components/BusinessCard";
 import NavbarContent from "./components/Navbar";
+import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className="App">
+      <main className="App">
         <Switch>
           <Route exact={true} path="/">
             <Hero />
             <About />
             <Carousel />
             <Portfolio />
+            <Contact />
           </Route>
           <Route path="/about">
-            <NavbarContent />
+            <Header />
             <About />
           </Route>
           <Route path="/services">
-            <NavbarContent />
+            <Header />
             <Services />
           </Route>
           <Route path="/portfolio">
-            <NavbarContent />
+            <Header />
             <Portfolio />
           </Route>
           <Route path="/testimonials">
-            <NavbarContent />
+            <Header />
             <Testimonials />
           </Route>
           <Route path="/resume">
-            <NavbarContent />
+            <Header />
             <Resume />
           </Route>
           <Route path="/contact">
@@ -50,7 +52,7 @@ function App() {
             <BusinessCard />
           </Route> */}
         </Switch>
-      </div>
+      </main>
     </Router>
   );
 }
