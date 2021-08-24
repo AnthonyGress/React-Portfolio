@@ -31,6 +31,13 @@ a:hover {
   max-width: 400px;
 }
 
+#about .heading,
+#contact .heading,
+#resume .heading {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 #contact,
 #about {
   background-color: var(--secoundary);
@@ -80,6 +87,9 @@ a:hover {
   max-width: 95vw !important;
 }
 
+.form-control {
+  border: none !important;
+}
 .heroImg {
   /* background-color: #282c34; */
   background-image: url(./images/splash1.jpg);
@@ -111,13 +121,6 @@ a:hover {
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
-}
-
-#about .heading,
-#contact .heading,
-#resume .heading {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .carousel-indicators {
