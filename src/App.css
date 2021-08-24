@@ -43,6 +43,26 @@ a:hover {
   background-color: var(--secoundary);
 }
 
+#footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-icon-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-icon {
+  max-height: 50px;
+  width: auto;
+}
+
+.stackoverflow {
+  transform: scale(1.5) !important;
+  padding-right: 1rem;
+}
+
 .navbar-nav .active {
   text-underline-offset: 6px;
   text-decoration: underline !important;
@@ -90,6 +110,7 @@ a:hover {
 .form-control {
   border: none !important;
 }
+
 .heroImg {
   /* background-color: #282c34; */
   background-image: url(./images/splash1.jpg);

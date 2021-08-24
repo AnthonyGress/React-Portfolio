@@ -58,51 +58,6 @@ const NavbarContent = (props) => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    /* <nav className="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">
-          <img
-            src={logo}
-            width="40"
-            height="40"
-            class="d-inline-block align-center"
-            alt=""
-          />
-          {" Anthony Gress"}
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="#">
-              Home <span className="sr-only">(current)</span>
-            </a>
-            <a className="nav-item nav-link" href="#">
-              About
-            </a>
-            <a className="nav-item nav-link" href="#">
-              Services
-            </a>
-            <a className="nav-item nav-link" href="#">
-              Testimonials
-            </a>
-            <a className="nav-item nav-link" href="#">
-              Contact
-            </a>
-            <a className="nav-item nav-link" href="#">
-              Business Card
-            </a>
-          </div>
-        </div>
-      </nav> */
   );
 };
 

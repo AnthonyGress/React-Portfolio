@@ -10,6 +10,7 @@ import Carousel from "./components/Carousel";
 // import BusinessCard from "./components/BusinessCard";
 import NavbarContent from "./components/Navbar";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
             <BusinessCard />
           </Route> */}
         </Switch>
+        <Footer />
       </main>
     </Router>
   );
