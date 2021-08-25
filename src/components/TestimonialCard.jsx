@@ -11,8 +11,7 @@ function TestimonialCard(props) {
       </div>
       <div className="card-footer d-flex justify-content-end">
         <small className="text-muted">
-          {" Profile photo from "}
-          <a href="https://generated.photos">{"Generated Photos"}</a>
+          {" Profile photo from Generated Photos"}
         </small>
       </div>
     </div>

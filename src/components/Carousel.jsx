@@ -20,21 +20,26 @@ import ipados from "../images/carousel/ipados.png";
 import android from "../images/carousel/android.png";
 import threejs from "../images/carousel/threejslogo.png";
 import reactrouter from "../images/carousel/reactrouter.png";
+import apollo from "../images/carousel/apollo.png";
 
 const slide1 = [
   {
+    id: 1,
     name: "react",
     image: react,
   },
   {
+    id: 2,
     name: "nodejs",
     image: nodejs,
   },
   {
+    id: 3,
     name: "reactrouter",
     image: reactrouter,
   },
   {
+    id: 4,
     name: "graphql",
     image: graphql,
   },
@@ -42,85 +47,115 @@ const slide1 = [
 
 const slide2 = [
   {
+    id: 5,
     name: "threejs",
     image: threejs,
   },
   {
-    name: "npm",
-    image: npm,
-  },
-  {
+    id: 7,
+
     name: "mongodb",
     image: mongodb,
   },
   {
+    id: 9,
     name: "mysql",
     image: mysql,
   },
   {
+    id: 10,
     name: "handlebars",
     image: handlebars,
   },
 ];
-const slide4 = [
+const slide5 = [
   {
-    name: "webpack",
-    image: webpack,
-  },
-  {
+    id: 12,
     name: "macos",
     image: mac,
   },
   {
+    id: 13,
     name: "windows",
     image: windows,
   },
   {
+    id: 14,
     name: "linux",
     image: linux,
   },
 ];
-const slide3 = [
+const slide4 = [
   {
+    id: 11,
+    name: "webpack",
+    image: webpack,
+  },
+  {
+    id: 15,
     name: "html",
     image: html,
   },
   {
+    id: 16,
     name: "css",
     image: css,
   },
   {
+    id: 17,
     name: "js",
     image: js,
   },
-  {
-    name: "bootstrap",
-    image: bootstrap,
-  },
 ];
-const slide5 = [
+const slide6 = [
   {
+    id: 19,
     name: "ios",
     image: ios,
   },
   {
+    id: 20,
     name: "ipados",
     image: ipados,
   },
   {
+    id: 21,
     name: "android",
     image: android,
   },
 ];
+const slide3 = [
+  {
+    id: 8,
+
+    name: "apollo",
+    image: apollo,
+  },
+  {
+    id: 6,
+
+    name: "npm",
+    image: npm,
+  },
+  {
+    id: 18,
+    name: "bootstrap",
+    image: bootstrap,
+  },
+];
 const CarouselPage = () => {
   return (
-    <section id="carousel" className="pb-2">
+    <section id="carousel" className="pb-5">
       <h1 className="heading">Proficiencies</h1>
       <Carousel>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
             {slide1.map((skill) => (
-              <CarouselSlide name={skill.name} image={skill.image} />
+              <CarouselSlide
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+              />
             ))}
           </div>
           {/* 
@@ -132,28 +167,55 @@ const CarouselPage = () => {
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
             {slide2.map((skill) => (
-              <CarouselSlide name={skill.name} image={skill.image} />
+              <CarouselSlide
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+              />
             ))}
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
             {slide3.map((skill) => (
-              <CarouselSlide name={skill.name} image={skill.image} />
+              <CarouselSlide
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+              />
             ))}
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
             {slide4.map((skill) => (
-              <CarouselSlide name={skill.name} image={skill.image} />
+              <CarouselSlide
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+              />
             ))}
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="carousel d-flex justify-content-evenly">
             {slide5.map((skill) => (
-              <CarouselSlide name={skill.name} image={skill.image} />
+              <CarouselSlide
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+              />
+            ))}
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div className="carousel d-flex justify-content-evenly">
+            {slide6.map((skill) => (
+              <CarouselSlide
+                key={skill.id}
+                name={skill.name}
+                image={skill.image}
+              />
             ))}
           </div>
         </Carousel.Item>

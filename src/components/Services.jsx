@@ -6,6 +6,35 @@ const Services = () => {
   return (
     <section id="services">
       <h1 className="heading">Services</h1>
+      <div className="service3"></div>
+      <Container>
+        <Row>
+          <Col size="col-md-6 service-heading">
+            <div>
+              <h2>Software Development</h2>
+              <h5 className="subheading">
+                I design and build software, websites, and apps
+              </h5>
+            </div>
+          </Col>
+          <Col size="col-md-6 service-wrapper">
+            <ul className="list-group">
+              <li className="list-group-item">
+                Create unique and engaging apps/websites
+              </li>
+              <li className="list-group-item">
+                Clean, simple, intuitive user interfaces
+              </li>
+              <li className="list-group-item">
+                Build backend servers, databases, data relationships
+              </li>
+              <li className="list-group-item">
+                Sort, organize, filter and distribute data
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
       <div className="service1"></div>
       <Container>
         <Row>
@@ -17,16 +46,16 @@ const Services = () => {
               </h5>
             </div>
           </Col>
-          <Col size="col-md-6">
+          <Col size="col-md-6 service-wrapper">
             <ul className="list-group">
               <li className="list-group-item">
-                Tech support for iPhone/iPad, Androids, and computers
+                In-person and remote tech support available
               </li>
               <li className="list-group-item">
-                Website development and maintenance
+                Support for many devices Laptops, iPhone/iPad, Androids, and PCs
               </li>
               <li className="list-group-item">
-                In-person and remote tech support
+                Website troubleshooting and maintenance
               </li>
               <li className="list-group-item">
                 Diagnose and repair software issues
@@ -47,7 +76,7 @@ const Services = () => {
               <h5 className="subheading">If you can break it, I can fix it</h5>
             </div>
           </Col>
-          <Col size="col-md-6">
+          <Col size="col-md-6 service-wrapper">
             <ul className="list-group">
               <li className="list-group-item">
                 Repair PC and laptop screens, hard drives, RAM
@@ -56,37 +85,11 @@ const Services = () => {
                 Data Recovery and Data transfer
               </li>
               <li className="list-group-item">
-                Upgrade computers with new Hard drive/SSD, RAM, Processors
+                Upgrade PCs/Laptops components i.e Hard disks/SSD, RAM,
+                Processors
               </li>
               <li className="list-group-item">
-                iPad, iPhone, and cell phone repairs
-              </li>
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-      <div className="service3"></div>
-      <Container>
-        <Row>
-          <Col size="col-md-6 service-heading">
-            <div>
-              <h2>Software Development</h2>
-              <h5 className="subheading">I design and build applications</h5>
-            </div>
-          </Col>
-          <Col size="col-md-6">
-            <ul className="list-group">
-              <li className="list-group-item">
-                Repair PC and laptop screens, hard drives, RAM
-              </li>
-              <li className="list-group-item">
-                Data Recovery and Data transfer
-              </li>
-              <li className="list-group-item">
-                Upgrade computers with new Hard drive/SSD, RAM, Processors
-              </li>
-              <li className="list-group-item">
-                iPad, iPhone, and cell phone repairs
+                Mobile phone and tablet repairs
               </li>
             </ul>
           </Col>

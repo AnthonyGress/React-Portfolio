@@ -22,6 +22,7 @@ function App() {
             <Hero />
             <About />
             <Carousel />
+            <Services />
             <Portfolio />
             <Contact />
           </Route>
