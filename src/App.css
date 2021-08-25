@@ -125,7 +125,7 @@ a:hover {
 
 .heroImg {
   /* background-color: #282c34; */
-  background-image: url(./images/splash1.jpg);
+  background-image: url(./images/minified/hero.jpg);
   min-height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .service1 {
-  background-image: url(./images/colorful-mac-side.jpg);
+  background-image: url(./images/minified/colorful-mac.jpg);
   display: block;
   width: 100vw;
   height: 100%;
@@ -197,7 +197,7 @@ a:hover {
   min-height: 400px;
 }
 .service2 {
-  background-image: url(./images/laptop-repair.jpg);
+  background-image: url(./images/minified/laptop-repair.jpg);
   width: 100%;
   height: 100%;
   margin-top: 0px;
@@ -209,7 +209,7 @@ a:hover {
   min-height: 600px;
 }
 .service3 {
-  background-image: url(./images/dev.jpg);
+  background-image: url(./images/minified/collab.jpg);
   width: 100%;
   height: 100%;
   margin-top: 0px;

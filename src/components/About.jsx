@@ -1,7 +1,7 @@
 import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
-import picture from "../images/ChairLandscape.jpg";
+import picture from "../images/minified/ChairLandscape.jpg";
 
 const About = () => {
   return (
