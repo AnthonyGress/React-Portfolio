@@ -149,7 +149,7 @@ const CarouselPage = () => {
       <h1 className="heading">Proficiencies</h1>
       <Carousel>
         <Carousel.Item>
-          <div className="carousel d-flex justify-content-evenly">
+          <div className="carousel justify-content-evenly">
             {slide1.map((skill) => (
               <CarouselSlide
                 key={skill.id}
