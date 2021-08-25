@@ -19,6 +19,7 @@ import ios from "../images/carousel/ios.png";
 import ipados from "../images/carousel/ipados.png";
 import android from "../images/carousel/android.png";
 import threejs from "../images/carousel/threejslogo.png";
+import reactrouter from "../images/carousel/reactrouter.png";
 
 const slide1 = [
   {
@@ -30,8 +31,8 @@ const slide1 = [
     image: nodejs,
   },
   {
-    name: "mongodb",
-    image: mongodb,
+    name: "reactrouter",
+    image: reactrouter,
   },
   {
     name: "graphql",
@@ -47,6 +48,10 @@ const slide2 = [
   {
     name: "npm",
     image: npm,
+  },
+  {
+    name: "mongodb",
+    image: mongodb,
   },
   {
     name: "mysql",
