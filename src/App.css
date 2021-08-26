@@ -113,6 +113,10 @@ textarea {
   justify-content: center;
 }
 
+/* .buttonWrapper .btn {
+  background-color:  !important;
+} */
+
 .card {
   background-color: var(--card-color) !important;
 }

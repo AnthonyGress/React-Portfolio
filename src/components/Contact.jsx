@@ -43,7 +43,12 @@ const Contact = () => {
                 />
               </FloatingLabel>
               <div className="buttonWrapper mt-4">
-                <Button variant="primary" type="submit">
+                <Button
+                  variant="primary"
+                  className="w-100"
+                  type="submit"
+                  size="lg"
+                >
                   Submit
                 </Button>
               </div>
