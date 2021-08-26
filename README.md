@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-<a href="https://techx-guy.github.io/React-Portfolio/" target="_blank"><div align="center"><img width="1917" alt="portfolio screenshot" src="">
+<a href="https://techx-guy.github.io/React-Portfolio/" target="_blank"><div align="center"><img width="1917" alt="portfolio screenshot" src="./src/images/screenshot.png">
 
 </div></a>
 
