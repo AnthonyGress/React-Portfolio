@@ -18,7 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "homepage": "https://www.techx.guy.com",
   "display": "standalone",
   "theme_color": "#6c6ca2",
   "background_color": "#161625"
