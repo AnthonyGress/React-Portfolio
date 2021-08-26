@@ -1,9 +1,9 @@
 function Row(props) {
-  return (
-    <div className={`row justify-content-center ${props.class}`}>
-      {props.children}
-    </div>
-  );
+  let customClass;
+  props.class
+    ? (customClass = `${props.class} row justify-content-center`)
+    : (customClass = "row justify-content-center");
+  return <div className={customClass}>{props.children}</div>;
 }
 
 export default Row;

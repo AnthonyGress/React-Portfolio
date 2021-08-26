@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section id="contact" className="pb-4">
       <h1 className="heading">Let's Connect</h1>
-      <Container>
+      <Container className="contact-wrapper">
         <Row>
           <Col size="col-md-6">
             <Form>
@@ -17,12 +17,7 @@ const Contact = () => {
                   label="Name"
                   className="mb-3"
                 >
-                  <Form.Control
-                    type="text"
-                    placeholder="First Last"
-                    className="bg-dark text-light"
-                    required
-                  />
+                  <Form.Control type="text" placeholder="First Last" required />
                 </FloatingLabel>
               </Form.Group>
               <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -34,7 +29,6 @@ const Contact = () => {
                   <Form.Control
                     type="email"
                     placeholder="name@example.com"
-                    className="bg-dark text-light"
                     required
                   />
                 </FloatingLabel>
@@ -45,7 +39,6 @@ const Contact = () => {
                   as="textarea"
                   placeholder="Leave a comment here"
                   style={{ height: "100px" }}
-                  className="bg-dark text-light"
                   required
                 />
               </FloatingLabel>

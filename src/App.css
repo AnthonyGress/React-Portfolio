@@ -2,10 +2,12 @@
 } */
 
 :root {
-  --secoundary: #6c6ca2;
+  --secondary: #6c6ca2;
   --bg-color: #161625;
   --font-color: #fff;
   --card-color: #343a40;
+  --btn-color: #5c5cc9;
+  --btn-active: #47479b;
 }
 
 body,
@@ -25,6 +27,27 @@ a:hover {
   color: #c7c7c7 !important;
 }
 
+input,
+textarea {
+  background-color: var(--card-color) !important;
+  color: var(--font-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--btn-color) !important;
+  border-color: var(--btn-color) !important;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled) {
+  background-color: var(--btn-active) !important;
+  border-color: var(--btn-active) !important;
+  color: var(--font-color) !important;
+  box-shadow: none !important;
+}
+
 #bootstrap-img,
 #mysql-img {
   max-height: 150px !important;
@@ -35,36 +58,52 @@ a:hover {
 }
 
 #about .heading,
-#contact .heading,
 #resume .heading {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #contact,
 #about,
 #services {
-  background-color: var(--secoundary);
+  background-color: var(--secondary);
+}
+
+#contact {
+  min-height: 80vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-content: center !important;
 }
 
 #footer {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer-icon-wrapper {
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-icon {
-  max-height: 50px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-height: 40px;
   width: auto;
 }
-
+.github {
+  padding-right: 1rem;
+}
 .stackoverflow {
   transform: scale(1.5) !important;
-  padding-right: 1rem;
 }
 
 .navbar-nav .active {
@@ -78,7 +117,7 @@ a:hover {
   pointer-events: none;
 }
 
-.aboutImgWrapper {
+.aboutWrapper {
   display: flex;
   justify-content: center;
   align-items: center !important;
@@ -165,11 +204,7 @@ a:hover {
   color: var(--font-color) !important;
   width: 100%;
   /* border: hidden !important; */
-  /* border-color: var(--font-color) !important; */
-}
-
-.portfolio-img {
-  height: 390px !important;
+  border-color: rgb(174, 174, 174) !important;
 }
 
 .service-heading {
@@ -284,6 +319,15 @@ a:hover {
 @media screen and (max-width: 768px) {
   .service-heading {
     padding-top: 2rem;
+  }
+}
+/* md breakpoint */
+@media screen and (max-width: 968px) {
+  .about-content {
+    padding-top: 2rem;
+  }
+  .btn {
+    padding: 10px !important;
   }
 }
 

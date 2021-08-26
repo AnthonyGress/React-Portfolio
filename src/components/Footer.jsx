@@ -11,23 +11,25 @@ const Footer = () => {
       <Container>
         <Row class="align-items-center">
           <Col size="col-6 fs-5">{"Anthony Gress 2021 ©"}</Col>
-          <Col size="col-6 text-end fs-5">
-            <div className="d-flex justify-content-around">
+          <Col size="col-6 fs-5 d-flex justify-content-end">
+            <div className="footer-icon-wrapper">
               <a
                 href="https://github.com/techx-guy"
                 target="_blank"
                 rel="noreferrer"
-                className="footer-icon-wrapper"
               >
                 <span>
-                  <img src={github} alt="github logo" className="footer-icon" />
+                  <img
+                    src={github}
+                    alt="github logo"
+                    className="footer-icon github"
+                  />
                 </span>
               </a>
               <a
                 href="https://www.linkedin.com/in/anthony-gress/"
                 target="_blank"
                 rel="noreferrer"
-                className="footer-icon-wrapper"
               >
                 <span>
                   <img
@@ -41,7 +43,6 @@ const Footer = () => {
                 href="https://stackoverflow.com/users/15932911/techxguy"
                 target="_blank"
                 rel="noreferrer"
-                className="footer-icon-wrapper"
               >
                 <span>
                   <img
