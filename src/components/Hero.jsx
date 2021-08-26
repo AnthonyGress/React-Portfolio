@@ -19,7 +19,7 @@ function Hero() {
                 Technician, and Fire Performer
               </div>
               <div className="fs-4 mt-5">
-                I solve technical problems and teach people skills to make their
+                I solve tech problems and teach people skills to make their
                 lives easier
               </div>
             </Col>
