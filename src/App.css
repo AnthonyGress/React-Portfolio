@@ -164,7 +164,7 @@ textarea {
 
 .heroImg {
   /* background-color: #282c34; */
-  background-image: url(./images/minified/hero.jpg);
+  background-image: url(./images/minified/hero.min.jpg);
   min-height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -229,7 +229,7 @@ textarea {
   background-size: cover;
   -webkit-background-size: cover;
   position: relative;
-  min-height: 400px;
+  min-height: 600px;
 }
 .service2 {
   background-image: url(./images/minified/laptop-repair.jpg);
