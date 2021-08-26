@@ -26,7 +26,7 @@ a:hover {
 
 input,
 textarea {
-  background-color: var(--card-color) !important;
+  background-color: var(--bg-color) !important;
   color: var(--font-color) !important;
 }
 
@@ -187,6 +187,7 @@ textarea {
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
+  /* font-family: "Source Code Pro", monospace; */
 }
 
 .list-group {
@@ -328,6 +329,10 @@ textarea {
 
 /* On smaller screens */
 @media screen and (max-width: 1024px) {
+  .App-logo {
+    margin-top: 10px;
+    height: 35vmin;
+  }
   .carousel {
     flex-direction: column;
     align-items: center;

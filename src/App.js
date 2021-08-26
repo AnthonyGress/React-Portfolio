@@ -11,6 +11,7 @@ import Carousel from "./components/Carousel";
 import NavbarContent from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+// import script from "./components/script";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -55,7 +56,7 @@ function App() {
           </Route> */}
         </Switch>
         <Footer />
-        {/* <script>{ScrollScript}</script> */}
+        {/* <script>{script}</script> */}
       </main>
     </Router>
   );
