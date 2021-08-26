@@ -15,7 +15,7 @@ const CarouselPage = () => {
       <h1 className="heading">Proficiencies</h1>
       <Carousel>
         <Carousel.Item>
-          <div className="carousel justify-content-evenly">
+          <div className="carousel">
             {slide1.map((skill) => (
               <CarouselSlide
                 key={skill.id}
@@ -31,7 +31,7 @@ const CarouselPage = () => {
           </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
-          <div className="carousel d-flex justify-content-evenly">
+          <div className="carousel">
             {slide2.map((skill) => (
               <CarouselSlide
                 key={skill.id}
@@ -42,7 +42,7 @@ const CarouselPage = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="carousel d-flex justify-content-evenly">
+          <div className="carousel">
             {slide3.map((skill) => (
               <CarouselSlide
                 key={skill.id}
@@ -53,7 +53,7 @@ const CarouselPage = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="carousel d-flex justify-content-evenly">
+          <div className="carousel">
             {slide4.map((skill) => (
               <CarouselSlide
                 key={skill.id}
@@ -64,7 +64,7 @@ const CarouselPage = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="carousel d-flex justify-content-evenly">
+          <div className="carousel">
             {slide5.map((skill) => (
               <CarouselSlide
                 key={skill.id}
@@ -75,7 +75,7 @@ const CarouselPage = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="carousel d-flex justify-content-evenly">
+          <div className="carousel">
             {slide6.map((skill) => (
               <CarouselSlide
                 key={skill.id}

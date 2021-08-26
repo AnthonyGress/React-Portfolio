@@ -11,7 +11,6 @@ const CarouselSlide = (props) => {
         draggable="false"
         id={skillName}
         alt={skillName}
-        loading="lazy"
       />
     </>
   );
