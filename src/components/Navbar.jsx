@@ -4,13 +4,18 @@ import { LinkContainer } from "react-router-bootstrap";
 import Container from "./Container";
 
 const NavbarContent = (props) => {
+  const blur = () => {
+    console.log("blur navbar");
+  };
   return (
     <Navbar
       collapseOnSelect
       expand="lg"
       variant="dark"
-      className="w-100"
+      className="w-100 blur"
       style={props.style}
+      onToggle={blur}
+      sticky="top"
     >
       <Container style={{ maxWidth: "95vw !important" }}>
         <LinkContainer to="/">
