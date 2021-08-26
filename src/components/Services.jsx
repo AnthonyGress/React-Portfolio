@@ -13,7 +13,8 @@ const Services = () => {
             <div>
               <h2>Software Development</h2>
               <h5 className="subheading">
-                I design and build software, websites, and apps
+                I bring your business's vision to life through the design of
+                software, websites and apps
               </h5>
             </div>
           </Col>
@@ -23,13 +24,13 @@ const Services = () => {
                 Create unique and engaging apps/websites
               </li>
               <li className="list-group-item">
-                Clean, simple, intuitive user interfaces
+                Design clean, simple, and intuitive user interfaces
               </li>
               <li className="list-group-item">
                 Build backend servers, databases, data relationships
               </li>
               <li className="list-group-item">
-                Sort, organize, filter and distribute data
+                Sort, organize, filter and distribute information
               </li>
             </ul>
           </Col>

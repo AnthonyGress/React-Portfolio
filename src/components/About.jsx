@@ -17,21 +17,27 @@ const About = () => {
             />
           </Col>
           <Col size="col-lg-6 aboutWrapper">
-            <p className="about-content fs-4">
+            <p className="about-content fs-5">
               I have always been passionate about technology. As a child, you
-              could usually find me tinkering, building, and fixing things. I
-              went on to study Computer Science at the University of Central
-              Florida and since then, I have applied those skills and solved
-              problems for thousands of people. I obtained my A+ Certification
-              from CompTIA in 2020 and in 2021 I completed the software
-              developer boot camp from the University of Central Florida as
-              well. As this is a rapidly evolving field, I strive to acquire the
-              latest information pertaining to technology; therefore I am
-              continuously growing and furthering my education. I have
-              vigorously studied software development, network
-              tools/infrastructure, and cybersecurity. I actually built this
-              website from the ground up using React JS. Check out my portfolio
-              to see other projects that I have been working on lately!
+              could find me tinkering, building, and fixing things. I studied
+              Computer Science at the University of Central Florida and I
+              obtained the A+ Certification from CompTIA. Most recently, I
+              recieved the Full Stack Software Developer Certification from the
+              University of Central Florida. The field of technology is rapidly
+              evolving and I strive to acquire the latest information,
+              continuously furthering my education. In addition to software
+              development and tech support, I have studied cybersecurity,
+              network tools, operating systems, and network infrastructure. In
+              my previous role as Verizon Tech Support Agent I implemented
+              innovative, technical solutions for thousands of people. Over
+              eighty five percent of the issues that I came across were
+              resolved, all within an average time frame of ten minutes. I have
+              a passion for learning, creating, and problem solving that is
+              present in all of my work. Using code as my medium, I want to help
+              you build your dream project. I built this website from the ground
+              up using the React library for JavaScript, which allows all the
+              parts of the page to be modular, self-sufficient, and most
+              importantly fast. Check out my portfolio to see some of my work!
             </p>
           </Col>
         </Row>
