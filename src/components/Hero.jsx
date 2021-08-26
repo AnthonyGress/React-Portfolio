@@ -13,20 +13,25 @@ function Hero() {
         <div className="container" style={{ maxWidth: "95vw" }}>
           <Row>
             <Col size="lg-12">
-              <h1 className="display-4 fade-in1 mt-5">Hi, I'm Anthony</h1>
-              <div className="fs-4 mt-5">
+              <h1 className="display-4 fade-in mt-5">Hi, I'm Anthony</h1>
+              <div className="fs-4 mt-5 fade-in-delay">
                 I am a Full-Stack Web Developer, Tech Support Specialist, Repair
                 Technician, and Fire Performer
               </div>
-              <div className="fs-4 mt-5">
+              <div className="fs-4 mt-5 fade-in-delay2">
                 I provide innovative, technical solutions and design
                 websites/apps
               </div>
             </Col>
           </Row>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <a href="#about" className="btn btn-primary btn-lg p-2 mt-4">
+        <div className="fade-in">
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
+        <a
+          href="#about"
+          className="btn btn-primary btn-lg p-2 mt-4 fade-in-delay2"
+        >
           Learn More
         </a>
       </section>

@@ -43,23 +43,22 @@ const Services = () => {
             <div>
               <h2>Tech Support</h2>
               <h5 className="subheading">
-                I provide solutions for tech issues at home and in the office
+                I provide solutions for technology issues at home or in the
+                office
               </h5>
             </div>
           </Col>
           <Col size="col-md-6 service-wrapper">
             <ul className="list-group">
               <li className="list-group-item">
-                In-person and remote tech support available
+                Provide in-person and remote tech support
               </li>
               <li className="list-group-item">
-                Support for many devices Laptops, iPhone/iPad, Androids, and PCs
+                Supported devices include laptops, phones, tablets printers, and
+                desktop computers
               </li>
               <li className="list-group-item">
-                Website troubleshooting and maintenance
-              </li>
-              <li className="list-group-item">
-                Diagnose and repair software issues
+                Diagnose and repair hardware/software issues
               </li>
               <li className="list-group-item">
                 Maintain network devices & office equipment
@@ -80,14 +79,13 @@ const Services = () => {
           <Col size="col-md-6 service-wrapper">
             <ul className="list-group">
               <li className="list-group-item">
-                Repair PC and laptop screens, hard drives, RAM
+                Repair desktop computers, laptops, and mobile devices
               </li>
               <li className="list-group-item">
-                Data Recovery and Data transfer
+                Recover or transfer documents, pictures, files etc
               </li>
               <li className="list-group-item">
-                Upgrade PCs/Laptops components i.e Hard disks/SSD, RAM,
-                Processors
+                Upgrade components i.e hard drives/SSD, RAM, processors
               </li>
               <li className="list-group-item">
                 Mobile phone and tablet repairs

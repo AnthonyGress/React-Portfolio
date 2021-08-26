@@ -30,6 +30,29 @@ textarea {
   color: var(--font-color) !important;
 }
 
+.App-logo {
+  margin-top: 20px;
+  height: 30vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 16s linear;
+}
+
+.about-content {
+  text-indent: 2rem;
+}
+
+.aboutWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  flex-direction: column;
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 13s linear;
+  }
+} */
+
 .btn-primary {
   background-color: var(--btn-color) !important;
   border-color: var(--btn-color) !important;
@@ -60,6 +83,23 @@ textarea {
   padding-bottom: 2rem;
 }
 
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* .buttonWrapper .btn {
+  background-color:  !important;
+} */
+
+.card {
+  background-color: var(--card-color) !important;
+}
+
+.carousel {
+  display: flex;
+}
+
 #contact,
 #about,
 #services {
@@ -76,53 +116,6 @@ textarea {
 .contact-wrapper {
   display: flex;
   align-content: center !important;
-}
-
-.stackoverflow {
-  transform: scale(1.5) !important;
-}
-
-.navbar-nav .active {
-  text-underline-offset: 6px;
-  text-decoration: underline !important;
-}
-
-.App-logo {
-  margin-top: 20px;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.aboutWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center !important;
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 13s linear;
-  }
-} */
-.App-logo {
-  animation: App-logo-spin infinite 13s linear;
-}
-
-.buttonWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-/* .buttonWrapper .btn {
-  background-color:  !important;
-} */
-
-.card {
-  background-color: var(--card-color) !important;
-}
-
-.carousel {
-  display: flex;
 }
 
 .carousel-indicators {
@@ -208,6 +201,11 @@ textarea {
   border-color: rgb(174, 174, 174) !important;
 }
 
+.navbar-nav .active {
+  text-underline-offset: 6px;
+  text-decoration: underline !important;
+}
+
 .service-heading {
   display: flex;
   align-items: center;
@@ -274,6 +272,10 @@ textarea {
   align-self: center;
 }
 
+.stackoverflow {
+  transform: scale(1.5) !important;
+}
+
 .thumb {
   width: 15%;
 }
@@ -288,6 +290,24 @@ textarea {
   transform: scale(0.9);
 }
 
+.fade-in {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation: fadein 2s 0.25s 1 normal forwards;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation: fadein 2s 1.75s 1 normal forwards;
+}
+
+.fade-in-delay2 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation: fadein 2s 3.5s 1 normal forwards;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -296,6 +316,16 @@ textarea {
     transform: rotate(360deg);
   }
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* On smaller screens */
 @media screen and (max-width: 1024px) {
   .carousel {
