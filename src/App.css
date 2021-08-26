@@ -41,6 +41,10 @@ textarea {
   text-indent: 2rem;
 }
 
+.about-content-p {
+  text-indent: 2rem;
+}
+
 .aboutWrapper {
   display: flex;
   justify-content: center;
@@ -391,10 +395,10 @@ textarea {
     width: auto;
   }
   .carousel-control-prev {
-    left: -5rem !important;
+    left: -4rem !important;
   }
   .carousel-control-next {
-    right: -5rem !important;
+    right: -4rem !important;
   }
 }
 /* On mobile phone screens */

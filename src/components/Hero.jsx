@@ -4,10 +4,8 @@ import Col from "./Col";
 // import logo from "../images/icons/android-chrome-512x512.png";
 import logo from "../images/logos/minified/logo.png";
 import NavbarContent from "./Navbar";
-import zenScroll from "zenscroll";
 
 function Hero() {
-  const about = document.getElementById("about");
   return (
     <>
       <NavbarContent style={{ position: "absolute" }} />

@@ -88,7 +88,7 @@ const Services = () => {
                 Upgrade components i.e hard drives/SSD, RAM, processors
               </li>
               <li className="list-group-item">
-                Mobile phone and tablet repairs
+                Optimize device performance and reformat hard drives
               </li>
             </ul>
           </Col>

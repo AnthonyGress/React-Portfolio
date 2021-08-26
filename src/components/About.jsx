@@ -29,7 +29,7 @@ const About = () => {
               development and tech support, I have studied cybersecurity,
               network tools, operating systems, and network infrastructure.
             </p>
-            <p className="about-content fs-5">
+            <p className="about-content-p fs-5">
               In my previous role as Verizon Tech Support Agent I implemented
               innovative, technical solutions for thousands of people. Over
               eighty five percent of the issues that I came across were
