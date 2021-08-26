@@ -55,6 +55,7 @@ function App() {
           </Route> */}
         </Switch>
         <Footer />
+        {/* <script>{ScrollScript}</script> */}
       </main>
     </Router>
   );
