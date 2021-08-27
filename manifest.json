@@ -21,7 +21,7 @@
       "src": "maskable.png",
       "type": "image/png",
       "sizes": "240x240",
-      "purpose": "any maskable"
+      "purpose": "maskable any"
     }
   ],
   "start_url": ".",
