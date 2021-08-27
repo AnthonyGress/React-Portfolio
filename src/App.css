@@ -17,9 +17,17 @@ html {
 
 body {
   padding-top: 80px;
+  /* no double tap zoom mobile */
+  touch-action: manipulation;
+  /* no text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 a {
+  -webkit-user-drag: none;
   text-decoration: none !important;
   color: inherit !important;
 }
@@ -32,6 +40,10 @@ input,
 textarea {
   background-color: var(--bg-color) !important;
   color: var(--font-color) !important;
+}
+
+img {
+  -webkit-user-drag: none;
 }
 
 .App-logo {

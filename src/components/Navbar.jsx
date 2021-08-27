@@ -7,15 +7,15 @@ const NavbarContent = (props) => {
   const blur = () => {
     console.log("blur navbar");
   };
-  let isHome;
-  let page = window.location.href.toString().split("/").pop();
-  if (page === "") {
-    console.log("true");
-    isHome = true;
-  } else {
-    console.log("false");
-    isHome = false;
-  }
+  // let isHome;
+  // let page = window.location.href.toString().split("/").pop();
+  // if (page === "") {
+  //   console.log("true");
+  //   isHome = true;
+  // } else {
+  //   console.log("false");
+  //   isHome = false;
+  // }
 
   return (
     <Navbar
