@@ -7,6 +7,16 @@ const NavbarContent = (props) => {
   const blur = () => {
     console.log("blur navbar");
   };
+  let isHome;
+  let page = window.location.href.toString().split("/").pop();
+  if (page === "") {
+    console.log("true");
+    isHome = true;
+  } else {
+    console.log("false");
+    isHome = false;
+  }
+
   return (
     <Navbar
       collapseOnSelect
@@ -15,23 +25,22 @@ const NavbarContent = (props) => {
       className="w-100 blur"
       style={props.style}
       onToggle={blur}
-      sticky="top"
+      fixed="top"
     >
       <Container style={{ maxWidth: "95vw !important" }}>
-        <LinkContainer to="/">
-          <Navbar.Brand>
-            <img
-              alt="penrose triangle logo"
-              src={logo}
-              width="50"
-              height="50"
-              className="d-inline-block"
-            />
-            <span className="fs-5" style={{ color: "white" }}>
-              {" Anthony Gress"}
-            </span>
-          </Navbar.Brand>
-        </LinkContainer>
+        <Navbar.Brand href="#">
+          <img
+            alt="penrose triangle logo"
+            src={logo}
+            width="50"
+            height="50"
+            className="d-inline-block"
+          />
+          <span className="fs-5" style={{ color: "white" }}>
+            {" Anthony Gress"}
+          </span>
+        </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">

@@ -15,6 +15,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  padding-top: 80px;
+}
+
 a {
   text-decoration: none !important;
   color: inherit !important;
@@ -169,6 +173,7 @@ textarea {
 .heroImg {
   /* background-color: #282c34; */
   background-image: url(./images/minified/hero.min.jpg);
+  margin-top: -80px;
   min-height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -194,10 +199,11 @@ textarea {
 
 .heading {
   font-size: calc(1.375rem + 1.5vw) !important;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   padding-bottom: 3rem;
   text-align: center;
   /* font-family: "Source Code Pro", monospace; */
+  padding-top: 60px !important;
 }
 
 .list-group {

@@ -19,7 +19,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <main className="App">
         <Switch>
-          <Route exact={true} path="/">
+          <Route exact={true} path={["/", "/#"]}>
             <Hero />
             <About />
             <Carousel />
@@ -51,12 +51,14 @@ function App() {
             <NavbarContent />
             <Contact />
           </Route>
-          {/* <Route path="/mycard">
-            <BusinessCard />
+          {/* <Route>
+            <Hero />
           </Route> */}
+          {/* <Route path="/mycard">
+              <BusinessCard />
+            </Route> */}
         </Switch>
         <Footer />
-        {/* <script>{script}</script> */}
       </main>
     </Router>
   );
