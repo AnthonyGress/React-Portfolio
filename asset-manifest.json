@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cb49a637.chunk.css",
-    "main.js": "/static/js/main.6fbd77b3.chunk.js",
-    "main.js.map": "/static/js/main.6fbd77b3.chunk.js.map",
+    "main.js": "/static/js/main.ae617220.chunk.js",
+    "main.js.map": "/static/js/main.ae617220.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f35ba385.js",
     "runtime-main.js.map": "/static/js/runtime-main.f35ba385.js.map",
     "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/face4.9f435386.jpg": "/static/media/face4.9f435386.jpg",
     "static/media/face5.e410f9c0.jpg": "/static/media/face5.e410f9c0.jpg",
     "static/media/face6.cdb8808a.jpg": "/static/media/face6.cdb8808a.jpg",
-    "static/media/fitness.2c853943.png": "/static/media/fitness.2c853943.png",
+    "static/media/freshBytesImg.26702946.png": "/static/media/freshBytesImg.26702946.png",
     "static/media/graphql.e354ce1d.png": "/static/media/graphql.e354ce1d.png",
     "static/media/handlebars.b53257d0.png": "/static/media/handlebars.b53257d0.png",
     "static/media/logo.763c9283.png": "/static/media/logo.763c9283.png",
@@ -51,6 +51,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.74564dc8.chunk.js",
     "static/css/main.cb49a637.chunk.css",
-    "static/js/main.6fbd77b3.chunk.js"
+    "static/js/main.ae617220.chunk.js"
   ]
 }
