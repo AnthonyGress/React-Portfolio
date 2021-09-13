@@ -7,7 +7,8 @@ import blogImg from "../images/projects/TechBlog.png";
 import tastyImg from "../images/projects/TastyOg.png";
 import budgetImg from "../images/projects/BudgetTracker.png";
 import passwordImg from "../images/projects/password.png";
-import fitnessImg from "../images/projects/fitness.png";
+import freshBytesImg from "../images/projects/minified/freshBytesImg.png";
+// import fitnessImg from "../images/projects/fitness.png";
 
 const project1 = {
   heading: "Stargate App",
@@ -29,7 +30,7 @@ const project2 = {
   index: 2,
 };
 
-const project3 = {
+const project6 = {
   heading: "Tasty Bytes App",
   description:
     "A web app that helps you find food and cocktail recipes using ingredients that you already have!",
@@ -59,13 +60,13 @@ const project5 = {
   index: 5,
 };
 
-const project6 = {
-  heading: "Fitness Tracker",
+const project3 = {
+  heading: "Fresh Bytes",
   description:
-    "A full stack fitness tracker app that allows you to save your workouts and get organize them using graphs. It also provides detailed information about your workout habits over time.",
-  image: fitnessImg,
-  url: "https://powerful-sea-65196.herokuapp.com/?id=611d2e5cc2b0ec0016d3e5f3",
-  github: "https://github.com/techx-guy/Fitness-Tracker",
+    "A full stack MERN app which showcases a modern restaraunt  serving delicious craft cocktails, local beers, and daily entree specials. All with an exquisite dining atmosphere",
+  image: freshBytesImg,
+  url: "https://freshbyteskitchen.herokuapp.com/",
+  github: "https://github.com/techx-guy/Fresh-Bytes",
   index: 6,
 };
 
