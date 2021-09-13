@@ -30,7 +30,7 @@ const About = () => {
               network tools, operating systems, and network infrastructure.
             </p>
             <p className="about-content-p fs-5">
-              In my previous role as Verizon Tech Support Agent I implemented
+              In my previous role as Verizon Tech Support Agent, I implemented
               innovative, technical solutions for thousands of people. Over
               eighty five percent of the issues that I came across were
               resolved, all within an average time frame of ten minutes. I have
