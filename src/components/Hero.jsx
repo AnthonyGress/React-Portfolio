@@ -11,12 +11,18 @@ import { scroller } from "react-scroll";
 function Hero() {
   const scrollToItem = (item) => {
     const isMobile = window.outerWidth < 968;
-    let offsetVal;
-    isMobile ? (offsetVal = -84) : (offsetVal = -60);
+    let offsetVal, durationVal;
+    if (isMobile) {
+      offsetVal = -84;
+      durationVal = 300;
+    } else {
+      offsetVal = -60;
+      durationVal = 175;
+    }
     scroller.scrollTo(item, {
       offset: offsetVal,
       smooth: true,
-      duration: 175,
+      duration: durationVal,
       delay: 0,
     });
     // console.log(isMobile);
