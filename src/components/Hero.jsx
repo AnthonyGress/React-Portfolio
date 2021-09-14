@@ -5,8 +5,23 @@ import Col from "./Col";
 import logo from "../images/logos/minified/logo.png";
 import NavbarContent from "./Navbar";
 import resetScroll from "./resetScroll";
+import Button from "@restart/ui/esm/Button";
+import { scroller } from "react-scroll";
 
 function Hero() {
+  const scrollToItem = (item) => {
+    const isMobile = window.outerWidth < 968;
+    let offsetVal;
+    isMobile ? (offsetVal = -84) : (offsetVal = -60);
+    scroller.scrollTo(item, {
+      offset: offsetVal,
+      smooth: true,
+      duration: 175,
+      delay: 0,
+    });
+    // console.log(isMobile);
+  };
+
   resetScroll();
   return (
     <>
@@ -31,12 +46,12 @@ function Hero() {
         <div className="fade-in">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <a
-          href="#about"
+        <Button
           className="btn btn-primary btn-lg p-2 mt-4 fade-in-delay2"
+          onClick={() => scrollToItem("about")}
         >
           Learn More
-        </a>
+        </Button>
       </section>
     </>
   );
