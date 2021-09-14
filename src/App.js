@@ -51,7 +51,8 @@ function App() {
             <NavbarContent />
             <Contact />
           </Route>
-          {/* <Route>
+          <Route render={() => <Hero />} />
+          {/* <Route path="/">
             <Hero />
           </Route> */}
           {/* <Route path="/mycard">
