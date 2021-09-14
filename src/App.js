@@ -12,11 +12,17 @@ import NavbarContent from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 // import script from "./components/script";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL + "/"}>
       <main className="App">
         <Switch>
           <Route exact={true} path={["/", "/#"]}>
@@ -51,7 +57,7 @@ function App() {
             <NavbarContent />
             <Contact />
           </Route>
-          <Route render={() => <Hero />} />
+          <Redirect from="*" to="/" />
           {/* <Route path="/">
             <Hero />
           </Route> */}
