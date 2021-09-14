@@ -24,7 +24,7 @@ function App() {
   console.log("test1");
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <main className="App">
         <Switch>
           <Route exact={true} path={["/", "/#"]}>
@@ -69,7 +69,7 @@ function App() {
         </Switch>
         <Footer />
       </main>
-    </Router>
+    </HashRouter>
   );
 }
 
