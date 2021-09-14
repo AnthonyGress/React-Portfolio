@@ -22,7 +22,7 @@ import {
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL + "/"}>
+    <Router basename={process.env.PUBLIC_URL}>
       <main className="App">
         <Switch>
           <Route exact={true} path={["/", "/#"]}>
@@ -33,27 +33,27 @@ function App() {
             <Portfolio />
             <Contact />
           </Route>
-          <Route path="/about">
+          <Route path={process.env.PUBLIC_URL + "/about"}>
             <Header />
             <About />
           </Route>
-          <Route path="/services">
+          <Route path={process.env.PUBLIC_URL + "/services"}>
             <Header />
             <Services />
           </Route>
-          <Route path="/portfolio">
+          <Route path={process.env.PUBLIC_URL + "/portfolio"}>
             <Header />
             <Portfolio />
           </Route>
-          <Route path="/testimonials">
+          <Route path={process.env.PUBLIC_URL + "/testimonials"}>
             <Header />
             <Testimonials />
           </Route>
-          <Route path="/resume">
+          <Route path={process.env.PUBLIC_URL + "/resume"}>
             <Header />
             <Resume />
           </Route>
-          <Route path="/contact">
+          <Route path={process.env.PUBLIC_URL + "/contact"}>
             <NavbarContent />
             <Contact />
           </Route>
