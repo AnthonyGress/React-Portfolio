@@ -21,9 +21,8 @@ import {
 } from "react-router-dom";
 
 function App() {
-  {
-    console.log("test1");
-  }
+  console.log("test1");
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <main className="App">
