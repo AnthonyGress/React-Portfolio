@@ -7,12 +7,15 @@ import { Document, Page } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 const Resume = () => {
+  let width;
+  window.outerWidth < 800 ? (width = 400) : (width = 900);
+
   return (
     <section id="resume" className="pb-5">
       <h1 className="heading">Resume</h1>
       <div className="d-flex justify-content-center mb-5">
         <Document file={resume} options={{ workerSrc: "/pdf.worker.js" }}>
-          <Page pageNumber={1} width={900} />
+          <Page pageNumber={1} width={width} />
         </Document>
       </div>
       <Container>
