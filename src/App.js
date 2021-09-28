@@ -21,8 +21,6 @@ import {
 } from "react-router-dom";
 
 function App() {
-  console.log("test1");
-
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
       <main className="App">

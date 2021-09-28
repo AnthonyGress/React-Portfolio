@@ -2,18 +2,18 @@ import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
 import Card from "./Card";
-import stargateImg from "../images/projects/stargate.jpeg";
-import blogImg from "../images/projects/TechBlog.png";
-import tastyImg from "../images/projects/TastyOg.png";
-import budgetImg from "../images/projects/BudgetTracker.png";
-import passwordImg from "../images/projects/password.png";
-import freshBytesImg from "../images/projects/minified/freshBytesImg.png";
+import stargateImg from "../images/projects/minified/stargatescreenshot.jpg";
+import blogImg from "../images/projects/minified/TechBlog.jpg";
+import tastyImg from "../images/projects/minified/TastyOg.png";
+import budgetImg from "../images/projects/minified/BudgetTracker.png";
+import passwordImg from "../images/projects/minified/password.png";
+import freshBytesImg from "../images/projects/minified/FBK.jpg";
 // import fitnessImg from "../images/projects/fitness.png";
 
 const project1 = {
-  heading: "Stargate App",
+  heading: "Stargate",
   description:
-    "A full stack progressive web app (PWA) written in JS using three.js to create a fun and interactive way to explore the solar system!",
+    "Explore the final frontier from anywhere using any device with Stargate. A full stack MEHN (MySQL, Express, Handlebars, Node) progressive web app written in JavaScript using the Model-View-Controller paradigm. Three.js allows for the creation and manipulation of 3D objects using JavaScript.",
   image: stargateImg,
   url: "https://stargate-app.herokuapp.com/",
   github: "https://github.com/techx-guy/Stargate-App",
@@ -21,26 +21,26 @@ const project1 = {
 };
 
 const project2 = {
-  heading: "Tech Blog App",
+  heading: "Tech Blog",
   description:
-    "A full stack app written in Javascript using Node.js, Express.Js, Handlebars.Js and a MySQL database which securely stores encrypted user passwords. This app allows user login, create/comment/post to an online forum.",
+    "A full stack MEHN app written in JavaScript using Node.js, Express.Js, Handlebars.Js and a MySQL database which securely stores encrypted user passwords. This app allows users to login, create, comment, and post to an online forum.",
   image: blogImg,
   url: "https://powerful-ravine-36007.herokuapp.com/",
   github: "https://github.com/techx-guy/Tech-Blog",
   index: 2,
 };
 
-const project6 = {
+const project5 = {
   heading: "Tasty Bytes App",
   description:
-    "A web app that helps you find food and cocktail recipes using ingredients that you already have!",
+    "A web app that helps you find food and cocktail recipes using ingredients that you already have at home.",
   image: tastyImg,
   url: "https://techx-guy.github.io/TastyBytes/",
   github: "https://github.com/techx-guy/TastyBytes",
   index: 3,
 };
 
-const project4 = {
+const project6 = {
   heading: "Budget Tracker",
   description:
     "A full stack progressive web app that allows users to add expenses and deposits to their budget both online/offline.",
@@ -50,7 +50,7 @@ const project4 = {
   index: 4,
 };
 
-const project5 = {
+const project4 = {
   heading: "Password Generator",
   description:
     "This is a secure password generator written with HTML/CSS/JS that will generate a unique, secure password with the click of a button.",
@@ -63,7 +63,7 @@ const project5 = {
 const project3 = {
   heading: "Fresh Bytes",
   description:
-    "A full stack MERN app which showcases a modern restaraunt  serving delicious craft cocktails, local beers, and daily entree specials. All with an exquisite dining atmosphere",
+    "Serving delicious craft cocktails, local beers, and daily entree specials at Fresh Bytes. This full stack MERNQ (MongoDB, Express, React, Node, GraphQL) e-commerce store serves as this modern restaraunt's website, app, and even point of sale system.",
   image: freshBytesImg,
   url: "https://freshbyteskitchen.herokuapp.com/",
   github: "https://github.com/techx-guy/Fresh-Bytes",

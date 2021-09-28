@@ -5,9 +5,9 @@ import Container from "./Container";
 
 const NavbarContent = (props) => {
   const blur = () => {
-    console.log("blur navbar");
+    // console.log("blur navbar");
   };
-  // let isHome;
+  // let isHome;N
   // let page = window.location.href.toString().split("/").pop();
   // if (page === "") {
   //   console.log("true");
