@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cb49a637.chunk.css",
-    "main.js": "/static/js/main.98b12416.chunk.js",
-    "main.js.map": "/static/js/main.98b12416.chunk.js.map",
+    "main.js": "/static/js/main.16fd8ca6.chunk.js",
+    "main.js.map": "/static/js/main.16fd8ca6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8907fa61.js",
     "runtime-main.js.map": "/static/js/runtime-main.8907fa61.js.map",
     "static/css/2.179ed6e1.chunk.css": "/static/css/2.179ed6e1.chunk.css",
@@ -14,10 +14,11 @@
     "static/css/2.179ed6e1.chunk.css.map": "/static/css/2.179ed6e1.chunk.css.map",
     "static/css/main.cb49a637.chunk.css.map": "/static/css/main.cb49a637.chunk.css.map",
     "static/js/2.fb09f161.chunk.js.LICENSE.txt": "/static/js/2.fb09f161.chunk.js.LICENSE.txt",
-    "static/media/BudgetTracker.6d9e1922.png": "/static/media/BudgetTracker.6d9e1922.png",
+    "static/media/BudgetTracker.3cdc9ec7.png": "/static/media/BudgetTracker.3cdc9ec7.png",
     "static/media/ChairLandscape.566da676.jpg": "/static/media/ChairLandscape.566da676.jpg",
-    "static/media/TastyOg.5633f91d.png": "/static/media/TastyOg.5633f91d.png",
-    "static/media/TechBlog.94ee7876.png": "/static/media/TechBlog.94ee7876.png",
+    "static/media/FBK.5326a7c1.jpg": "/static/media/FBK.5326a7c1.jpg",
+    "static/media/TastyOg.c92b4c8a.png": "/static/media/TastyOg.c92b4c8a.png",
+    "static/media/TechBlog.7d8f735f.jpg": "/static/media/TechBlog.7d8f735f.jpg",
     "static/media/android-chrome-512x512.a065a588.png": "/static/media/android-chrome-512x512.a065a588.png",
     "static/media/android.ca0ac7fb.png": "/static/media/android.ca0ac7fb.png",
     "static/media/apollo.fed5c26b.png": "/static/media/apollo.fed5c26b.png",
@@ -29,7 +30,6 @@
     "static/media/face4.9f435386.jpg": "/static/media/face4.9f435386.jpg",
     "static/media/face5.e410f9c0.jpg": "/static/media/face5.e410f9c0.jpg",
     "static/media/face6.cdb8808a.jpg": "/static/media/face6.cdb8808a.jpg",
-    "static/media/freshBytesImg.26702946.png": "/static/media/freshBytesImg.26702946.png",
     "static/media/graphql.e354ce1d.png": "/static/media/graphql.e354ce1d.png",
     "static/media/handlebars.b53257d0.png": "/static/media/handlebars.b53257d0.png",
     "static/media/logo.763c9283.png": "/static/media/logo.763c9283.png",
@@ -37,12 +37,12 @@
     "static/media/mongodblogo.6f68ca2e.png": "/static/media/mongodblogo.6f68ca2e.png",
     "static/media/mysql.7fe5160e.png": "/static/media/mysql.7fe5160e.png",
     "static/media/nodejs.124a6079.png": "/static/media/nodejs.124a6079.png",
-    "static/media/password.443f1f17.png": "/static/media/password.443f1f17.png",
+    "static/media/password.08ecf731.png": "/static/media/password.08ecf731.png",
     "static/media/react.cb1505a5.png": "/static/media/react.cb1505a5.png",
     "static/media/reactrouter.93cf0f48.png": "/static/media/reactrouter.93cf0f48.png",
     "static/media/resume.9a263323.pdf": "/static/media/resume.9a263323.pdf",
     "static/media/stackoverflow.5cf09af0.png": "/static/media/stackoverflow.5cf09af0.png",
-    "static/media/stargate.d7350181.jpeg": "/static/media/stargate.d7350181.jpeg",
+    "static/media/stargatescreenshot.2a2841f3.jpg": "/static/media/stargatescreenshot.2a2841f3.jpg",
     "static/media/threejslogo.e2a7ac1f.png": "/static/media/threejslogo.e2a7ac1f.png",
     "static/media/webpack.971ce6a9.png": "/static/media/webpack.971ce6a9.png"
   },
@@ -51,6 +51,6 @@
     "static/css/2.179ed6e1.chunk.css",
     "static/js/2.fb09f161.chunk.js",
     "static/css/main.cb49a637.chunk.css",
-    "static/js/main.98b12416.chunk.js"
+    "static/js/main.16fd8ca6.chunk.js"
   ]
 }
