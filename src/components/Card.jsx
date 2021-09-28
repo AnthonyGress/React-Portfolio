@@ -29,7 +29,7 @@ function Card(props) {
           className="btn btn-primary"
         >
           <Globe2 size={24} />
-          <span className="ms-1">{"Live Site"}</span>
+          <span className="ms-1">{"Website"}</span>
         </a>
       </div>
     </div>
