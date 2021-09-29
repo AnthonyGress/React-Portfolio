@@ -22,7 +22,7 @@ const About = () => {
               could find me tinkering, building, and fixing things. I studied
               Computer Science at the University of Central Florida and I
               obtained the A+ Certification from CompTIA. Most recently, I
-              recieved the Full Stack Software Developer Certification from the
+              received the Full Stack Software Developer Certification from the
               University of Central Florida. The field of technology is rapidly
               evolving and I strive to acquire the latest information,
               continuously furthering my education. In addition to software
