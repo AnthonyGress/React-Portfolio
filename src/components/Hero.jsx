@@ -43,8 +43,8 @@ function Hero() {
                 Technician, and Fire Performer
               </div>
               <div className="fs-4 mt-5 fade-in-delay2">
-                I provide innovative, technical solutions and design
-                websites/apps
+                I design intuitive websites/apps and provide innovative tech
+                solutions
               </div>
             </Col>
           </Row>
