@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  /* fix ios double tap zoom (also use onclick on body) */
+  touch-action: manipulation;
+}
+
+.display-4 {
+  font-size: 2.3rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.tag {
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+
+.btn-primary,
+.btn-primary:active {
+  background-color: blueviolet !important;
+  border-color: blueviolet !important;
+  min-width: 120px !important;
+  padding: 0.7rem;
+}
+
+.shareBtn {
+  height: 60px !important;
+  width: 60px !important;
+  background-color: blueviolet !important;
+  border-color: blueviolet !important;
+  color: white !important;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.share {
+  display: flex;
+  justify-content: center;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.qr-code {
+  transition: 0.3s transform ease-in-out;
+}
+/* fix ios sticky button bug */
+@media (hover: hover) {
+  .btn-primary:active,
+  .btn-check:focus .btn-primary,
+  .btn-primary:focus,
+  .btn-primary:hover,
+  .shareBtn:hover,
+  .shareBtn:active,
+  .shareBtn:focus {
+    box-shadow: none !important;
+    background-color: rgb(109, 22, 190) !important;
+    color: white !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  a {
+    font-size: 1.3rem !important;
+  }
+
+  .btn-primary,
+  .btn-primary:active {
+    min-width: 140px !important;
+  }
+
+  .btn {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .top-row {
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+
+  .shareBtn {
+    height: 80px !important;
+    width: 80px !important;
+  }
+
+  .bottom-row {
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 70%;
+  }
+  .btn {
+    margin: 0.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    max-width: 40%;
+  }
+
+  .card-image {
+    max-height: 500px !important;
+  }
+
+  .card-body {
+    padding-bottom: 0px !important;
+  }
+
+  .btn {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .top-row {
+    justify-content: space-evenly;
+    margin-top: -1rem;
+  }
+
+  .share {
+    height: 80px;
+  }
+
+  .bottom-row {
+    justify-content: space-evenly;
+  }
+
+  .qr-code {
+    display: none;
+  }
+}

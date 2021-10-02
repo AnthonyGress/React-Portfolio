@@ -11,6 +11,7 @@ import Carousel from "./components/Carousel";
 import NavbarContent from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import DigitalCard from "./pages/DigitalCard";
 // import script from "./components/script";
 import {
   BrowserRouter as Router,
@@ -56,6 +57,9 @@ function App() {
           <Route path={process.env.PUBLIC_URL + "/contact"}>
             <NavbarContent />
             <Contact />
+          </Route>
+          <Route path={process.env.PUBLIC_URL + "/card"}>
+            <DigitalCard />
           </Route>
           <Redirect from="*" to="/" />
           {/* <Route path="/">

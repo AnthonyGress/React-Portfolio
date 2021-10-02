@@ -68,6 +68,9 @@ const NavbarContent = (props) => {
             <LinkContainer exact={true} to="/contact">
               <Nav.Link className="fs-5">Contact</Nav.Link>
             </LinkContainer>
+            <LinkContainer exact={true} to="/card">
+              <Nav.Link className="fs-5">Business Card</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
