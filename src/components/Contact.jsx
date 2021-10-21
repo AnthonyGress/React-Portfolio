@@ -6,19 +6,17 @@ import { Form, Button, FloatingLabel } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import "@sweetalert2/theme-dark/dark.css";
-import ReCAPTCHA from "react-google-recaptcha";
+import Reaptcha from "reaptcha";
 
 const Contact = () => {
   const form = useRef();
-  const recaptchaRef = useRef();
-  const onChange = (value) => {
-    console.log("Captcha value:", value);
+  const [verified, setVerified] = React.useState(false);
+  const onVerify = (e) => {
+    setVerified(true);
   };
+
   const sendEmail = (e) => {
     e.preventDefault();
-
-    const recaptchaValue = recaptchaRef.current.getValue();
-    this.props.onSubmit(recaptchaValue);
 
     emailjs
       .sendForm(
@@ -104,6 +102,10 @@ const Contact = () => {
                     required
                   />
                 </FloatingLabel>
+                <Reaptcha
+                  sitekey="6LdUnOYcAAAAADLf3Lshhz3kOLcBi9KNjk_HB_9h"
+                  onVerify={onVerify}
+                />
                 <Container className="center mt-4">
                   <div className="buttonWrapper mt-4">
                     <Button
@@ -111,16 +113,12 @@ const Contact = () => {
                       className="w-75"
                       type="submit"
                       size="lg"
+                      disabled={!verified}
                     >
                       Submit
                     </Button>
                   </div>
                 </Container>
-                <ReCAPTCHA
-                  ref={recaptchaRef}
-                  sitekey="6LdUnOYcAAAAADLf3Lshhz3kOLcBi9KNjk_HB_9h"
-                  onChange={onChange}
-                />
               </Form>
             </div>
           </Col>
