@@ -102,10 +102,12 @@ const Contact = () => {
                     required
                   />
                 </FloatingLabel>
-                <Reaptcha
-                  sitekey="6LdUnOYcAAAAADLf3Lshhz3kOLcBi9KNjk_HB_9h"
-                  onVerify={onVerify}
-                />
+                <div className="mt-4 center">
+                  <Reaptcha
+                    sitekey="6LdUnOYcAAAAADLf3Lshhz3kOLcBi9KNjk_HB_9h"
+                    onVerify={onVerify}
+                  />
+                </div>
                 <Container className="center mt-4">
                   <div className="buttonWrapper mt-4">
                     <Button

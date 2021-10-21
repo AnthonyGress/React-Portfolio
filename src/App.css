@@ -112,6 +112,11 @@ img {
   background-color:  !important;
 } */
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   background-color: var(--card-color) !important;
 }
