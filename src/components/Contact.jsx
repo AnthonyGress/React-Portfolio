@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 import Container from "./Container";
 import Row from "./Row";
 import Col from "./Col";
@@ -6,11 +6,19 @@ import { Form, Button, FloatingLabel } from "react-bootstrap";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import "@sweetalert2/theme-dark/dark.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   const form = useRef();
+  const recaptchaRef = useRef();
+  const onChange = (value) => {
+    console.log("Captcha value:", value);
+  };
   const sendEmail = (e) => {
     e.preventDefault();
+
+    const recaptchaValue = recaptchaRef.current.getValue();
+    this.props.onSubmit(recaptchaValue);
 
     emailjs
       .sendForm(
@@ -108,6 +116,11 @@ const Contact = () => {
                     </Button>
                   </div>
                 </Container>
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey="6LdUnOYcAAAAADLf3Lshhz3kOLcBi9KNjk_HB_9h"
+                  onChange={onChange}
+                />
               </Form>
             </div>
           </Col>
