@@ -34,6 +34,7 @@ const Contact = () => {
             confirmButtonText: "Ok",
           });
           console.log("SUCCESS!", response.status, response.text);
+          e.target.reset();
         },
         function (error) {
           Swal.fire({
@@ -45,7 +46,6 @@ const Contact = () => {
           console.log("FAILED...", error);
         }
       );
-    e.target.reset();
   };
   return (
     <section id="contact" className="pb-4">
