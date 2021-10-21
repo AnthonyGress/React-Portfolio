@@ -7,11 +7,11 @@ import Testimonials from "./components/Testimonials";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Carousel from "./components/Carousel";
-// import BusinessCard from "./components/BusinessCard";
+import BusinessCard from "./components/BusinessCard";
 import NavbarContent from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import DigitalCard from "./pages/DigitalCard";
+// import DigitalCard from "./pages/DigitalCard";
 // import script from "./components/script";
 import {
   BrowserRouter as Router,
@@ -59,7 +59,8 @@ function App() {
             <Contact />
           </Route>
           <Route path={process.env.PUBLIC_URL + "/card"}>
-            <DigitalCard />
+            <Header />
+            <BusinessCard />
           </Route>
           <Redirect from="*" to="/" />
           {/* <Route path="/">
