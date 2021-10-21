@@ -4,6 +4,8 @@ import Row from "./Row";
 import Col from "./Col";
 import { Form, Button, FloatingLabel } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
+import "@sweetalert2/theme-dark/dark.css";
 
 const Contact = () => {
   const form = useRef();
@@ -19,12 +21,25 @@ const Contact = () => {
       )
       .then(
         function (response) {
+          Swal.fire({
+            title: "Message Sent!",
+            text: "Thank you for your message! I will respond shortly.",
+            icon: "success",
+            confirmButtonText: "Ok",
+          });
           console.log("SUCCESS!", response.status, response.text);
         },
         function (error) {
+          Swal.fire({
+            title: "Whoops!",
+            text: "Something went wrong.",
+            icon: "error",
+            confirmButtonText: "Ok",
+          });
           console.log("FAILED...", error);
         }
       );
+    e.target.reset();
   };
   return (
     <section id="contact" className="pb-4">
@@ -43,7 +58,8 @@ const Contact = () => {
                     <Form.Control
                       type="text"
                       placeholder="First Last"
-                      name="user_name"
+                      name="name"
+                      autoComplete="on"
                       required
                     />
                   </FloatingLabel>
@@ -57,7 +73,8 @@ const Contact = () => {
                     <Form.Control
                       type="email"
                       placeholder="name@example.com"
-                      name="user_email"
+                      name="email"
+                      autoComplete="on"
                       required
                     />
                   </FloatingLabel>
