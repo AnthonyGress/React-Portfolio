@@ -43,7 +43,7 @@ const project5 = {
 const project3 = {
   heading: "Dancing Lines Art",
   description:
-    "A commissioned website, built in React with JavaScript, designed to showcase unique and beatiful works of art. Features a clean theme with a comprehensive gallery of the artist's work. Utilizes EmailJS to send emails directly to the artist from her website.",
+    "A commissioned website, built in React with JavaScript, designed to showcase unique and beatiful works of art. Features a clean theme with a comprehensive gallery of the artist's work. Utilizes EmailJS to contact the artist directly, through her website.",
   image: dancingLines,
   url: "https://www.dancinglinesart.com/",
   github: "",
