@@ -5,7 +5,7 @@ import Card from "./Card";
 import stargateImg from "../images/projects/minified/stargatescreenshot.jpg";
 import blogImg from "../images/projects/minified/TechBlog.jpg";
 import tastyImg from "../images/projects/minified/TastyOg.png";
-import budgetImg from "../images/projects/minified/BudgetTracker.png";
+import dancingLines from "../images/projects/minified/DancingLines.jpg";
 import passwordImg from "../images/projects/minified/password.png";
 import freshBytesImg from "../images/projects/minified/FBK.jpg";
 // import fitnessImg from "../images/projects/fitness.png";
@@ -20,7 +20,7 @@ const project1 = {
   index: 1,
 };
 
-const project2 = {
+const project6 = {
   heading: "Tech Blog",
   description:
     "A full stack MEHN app written in JavaScript using Node.js, Express.Js, Handlebars.Js and a MySQL database which securely stores encrypted user passwords. This app allows users to login, create, comment, and post to an online forum.",
@@ -40,27 +40,27 @@ const project5 = {
   index: 3,
 };
 
-const project6 = {
-  heading: "Budget Tracker",
+const project3 = {
+  heading: "Dancing Lines Art",
   description:
-    "A full stack progressive web app that allows users to add expenses and deposits to their budget both online/offline.",
-  image: budgetImg,
-  url: "https://immense-thicket-58645.herokuapp.com/",
-  github: "https://github.com/techx-guy/Budget-Tracker",
+    "A commissioned website, built in React with JavaScript, designed to showcase unique and beatiful works of art. Features a clean theme with a comprehensive gallery of the artist's work. Utilizes EmailJS to send emails directly to the artist from her website.",
+  image: dancingLines,
+  url: "https://www.dancinglinesart.com/",
+  github: "",
   index: 4,
 };
 
 const project4 = {
   heading: "Password Generator",
   description:
-    "This is a secure password generator written with HTML/CSS/JS that will generate a unique, secure password with the click of a button.",
+    "This is a secure password generator written with HTML/CSS/JavaScript that will generate a unique, secure password with the click of a button.",
   image: passwordImg,
   url: "https://techx-guy.github.io/Password-Generator/",
   github: "https://github.com/techx-guy/Password-Generator",
   index: 5,
 };
 
-const project3 = {
+const project2 = {
   heading: "Fresh Bytes",
   description:
     "Serving delicious craft cocktails, local beers, and daily entree specials at Fresh Bytes. This full stack MERNQ (MongoDB, Express, React, Node, GraphQL) e-commerce store serves as this modern restaraunt's website, app, and even point of sale system.",

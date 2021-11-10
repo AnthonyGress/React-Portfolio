@@ -17,7 +17,9 @@ function Card(props) {
           href={props.github}
           target="_blank"
           rel="noreferrer"
-          className="btn btn-primary"
+          className={
+            props.github !== "" ? "btn btn-primary" : "btn btn-primary disabled"
+          }
         >
           <Github size={24} />
           <span className="ms-1">{"GitHub"}</span>
