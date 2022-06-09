@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bb2c6357.css",
-    "main.js": "/static/js/main.41f0ac3a.js",
+    "main.js": "/static/js/main.8485ca57.js",
     "static/js/787.4048b011.chunk.js": "/static/js/787.4048b011.chunk.js",
     "static/media/ChairLandscape.jpg": "/static/media/ChairLandscape.566da676416c40c756d9.jpg",
     "static/media/colorful-mac.jpg": "/static/media/colorful-mac.9eab7b112b5e67b8f133.jpg",
@@ -13,6 +13,7 @@
     "static/media/FBK.jpg": "/static/media/FBK.5326a7c178c15b06c22c.jpg",
     "static/media/resume.pdf": "/static/media/resume.9ebb9f7f2348b44b4a6b.pdf",
     "static/media/hero.min.jpg": "/static/media/hero.min.ca904f3952a914173267.jpg",
+    "static/media/phoenixSite.jpg": "/static/media/phoenixSite.7460fe4b1be13cea6291.jpg",
     "static/media/face6.jpg": "/static/media/face6.cdb8808ad028bbcb74b6.jpg",
     "static/media/face5.jpg": "/static/media/face5.e410f9c0eec522ccb230.jpg",
     "static/media/face2.jpg": "/static/media/face2.d07a4720952794544d6a.jpg",
@@ -39,11 +40,11 @@
     "static/media/bootstrap.svg": "/static/media/bootstrap.b3ee0639981e7b7de2070879d5fc36d1.svg",
     "index.html": "/index.html",
     "main.bb2c6357.css.map": "/static/css/main.bb2c6357.css.map",
-    "main.41f0ac3a.js.map": "/static/js/main.41f0ac3a.js.map",
+    "main.8485ca57.js.map": "/static/js/main.8485ca57.js.map",
     "787.4048b011.chunk.js.map": "/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb2c6357.css",
-    "static/js/main.41f0ac3a.js"
+    "static/js/main.8485ca57.js"
   ]
 }
