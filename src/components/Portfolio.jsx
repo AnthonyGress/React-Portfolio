@@ -8,7 +8,7 @@ import tastyImg from '../images/projects/minified/TastyOg.png';
 import dancingLines from '../images/projects/minified/DancingLines.jpg';
 import passwordImg from '../images/projects/minified/password.png';
 import freshBytesImg from '../images/projects/minified/FBK.jpg';
-// import fitnessImg from "../images/projects/fitness.png";
+import phoenixSite from '../images/projects/minified/phoenixSite.jpg';
 
 const project1 = {
     heading: 'Stargate',
@@ -63,8 +63,16 @@ const project2 = {
     github: 'https://github.com/AnthonyGress/Fresh-Bytes',
     index: 6
 };
+const project7 = {
+    heading: 'Phoenix Fire',
+    description: 'At Phoenix Fire, we strive to maintain the highest levels of artistry and professionalism in our field. Since our founding in 2015, our performers have lit up a diverse range of events including private parties, weddings, business celebrations, art galas and more. We have diverse movement backgrounds and years of experience as professional entertainers. Our mission is to bring contemporary fire dancing to our communities through performance, collaboration, and education.',
+    image: phoenixSite,
+    url: 'https://phoenixfireflow.com/',
+    github: '',
+    index: 7
+};
 
-const projects = [project1, project3, project2, project4, project5, project6];
+const projects = [project7, project1, project3, project2, project4, project5, project6];
 
 const Portfolio = () => {
     return (
