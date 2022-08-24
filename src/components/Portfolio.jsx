@@ -4,7 +4,6 @@ import Col from "./Col";
 import Card from "./Card";
 import stargateImg from "../images/projects/minified/stargatescreenshot.jpg";
 import blogImg from "../images/projects/minified/TechBlog.jpg";
-import tastyImg from "../images/projects/minified/TastyOg.png";
 import dancingLines from "../images/projects/minified/DancingLines.jpg";
 import passwordImg from "../images/projects/minified/password.png";
 import freshBytesImg from "../images/projects/minified/FBK.jpg";

@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 // import DigitalCard from "./pages/DigitalCard";
 // import script from "./components/script";
 import {
-  BrowserRouter as Router,
+//   BrowserRouter as Router,
   HashRouter,
   Route,
   Switch,
