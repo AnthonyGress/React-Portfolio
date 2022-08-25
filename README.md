@@ -2,11 +2,11 @@
 
 ## Screenshot
 
-<a href="https://techx-guy.github.io/React-Portfolio/" target="_blank"><div align="center"><img width="1917" alt="portfolio screenshot" src="./src/images/screenshot.png">
+<a href="https://anthonygress.dev" target="_blank"><div align="center"><img width="1917" alt="portfolio screenshot" src="./src/images/screenshot.png">
 
 </div></a>
 
-# [Live Site](https://techx-guy.github.io/React-Portfolio/)
+# [Live Site](https://anthonygress.dev)
 
 ## Description
 
