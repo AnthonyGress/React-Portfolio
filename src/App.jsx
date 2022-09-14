@@ -14,8 +14,8 @@ import Footer from "./components/Footer";
 // import DigitalCard from "./pages/DigitalCard";
 // import script from "./components/script";
 import {
-//   BrowserRouter as Router,
-  HashRouter,
+  BrowserRouter as Router,
+//   HashRouter,
   Route,
   Switch,
   Redirect,
@@ -23,7 +23,7 @@ import {
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <main className="App">
         <Switch>
           <Route exact={true} path={["/", "/#"]}>
@@ -72,7 +72,7 @@ function App() {
         </Switch>
         <Footer />
       </main>
-    </HashRouter>
+    </Router>
   );
 }
 
