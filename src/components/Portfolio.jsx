@@ -36,7 +36,7 @@ const project3 = {
     description:
         "Explore the final frontier from anywhere using any device with Stargate. A full stack MEHN (MySQL, Express, Handlebars, Node) progressive web app written in JavaScript using the Model-View-Controller paradigm. Three.js allows for the creation and manipulation of 3D objects using JavaScript.",
     image: stargateImg,
-    url: "https://stargate-app.herokuapp.com/",
+    url: "https://stargate.up.railway.app/",
     github: "https://github.com/AnthonyGress/Stargate-App",
     index: 3,
 };
@@ -66,7 +66,7 @@ const project6 = {
     description:
         "Serving delicious craft cocktails, local beers, and daily entree specials at Fresh Bytes. This full stack MERNQ (MongoDB, Express, React, Node, GraphQL) e-commerce store serves as this modern restaraunt's website, app, and even point of sale system.",
     image: freshBytesImg,
-    url: "https://freshbyteskitchen.herokuapp.com/",
+    url: "https://freshbytes.up.railway.app/",
     github: "https://github.com/AnthonyGress/Fresh-Bytes",
     index: 6,
 };
