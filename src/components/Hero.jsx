@@ -38,7 +38,7 @@ function Hero() {
                     <Row>
                         <Col size='lg-12'>
                             <h1 className='display-4 fade-in mt-5'>Hi, I'm Anthony</h1>
-                            <div className='fs-4 mt-5 fade-in-delay'>I am a Full-Stack Software Developer, Tech Support Specialist, Repair Technician, and Fire Performer</div>
+                            <div className='fs-4 mt-5 fade-in-delay'>I am a Full-Stack Software Engineer, IT Consultant, Repair Technician, and Fire Performer</div>
                             <div className='fs-4 mt-5 fade-in-delay2'>I design intuitive websites/apps and provide innovative tech solutions</div>
                         </Col>
                     </Row>
