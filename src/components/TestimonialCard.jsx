@@ -10,7 +10,7 @@ function TestimonialCard(props) {
         <p className="mt-3 fs-5 card-text">{props.review}</p>
       </div>
       <div className="card-footer d-flex justify-content-end">
-        <small className="text-muted">
+        <small style={{color: 'white'}}>
           {" Profile photo from Generated Photos"}
         </small>
       </div>
