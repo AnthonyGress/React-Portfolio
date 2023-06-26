@@ -12,9 +12,9 @@ import fireTvToolkit from "../images/projects/minified/firetv-toolkit.png";
 import macTheRipper from "../images/projects/minified/mac-the-ripper.png";
 
 const project1 = {
-    heading: "Fire TV Toolkit",
+    heading: "Android Toolkit",
     description:
-        "A cross platform desktop app written in Typescript/Node using React and Electron. FireTV-Toolkit is a GUI for adb and can be used to modify android devices such as firesticks.",
+        "A cross platform desktop app written in Typescript/Node using React and Electron. Android Toolkit is a GUI for adb and can be used to modify any android device.",
     image: fireTvToolkit,
     url: "",
     github: "https://github.com/AnthonyGress/FireTV-Toolkit",
@@ -42,7 +42,7 @@ const project3 = {
 };
 
 const project4 = {
-    heading: "Mac The Ripper",
+    heading: "Youtube Downloader",
     description:
         "A simple desktop application that downloads video/audio from youtube videos. This app was built with Electron, Typescript/Node, and React.",
     image: macTheRipper,
