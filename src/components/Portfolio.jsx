@@ -8,10 +8,10 @@ import dancingLines from "../images/projects/minified/DancingLines.jpg";
 import passwordImg from "../images/projects/minified/password.png";
 import freshBytesImg from "../images/projects/minified/FBK.jpg";
 import phoenixSite from "../images/projects/minified/phoenixSite.jpg";
-import fireTvToolkit from "../images/projects/minified/firetv-toolkit.png";
-import macTheRipper from "../images/projects/minified/mac-the-ripper.png";
+import fireTvToolkit from "../images/projects/minified/AndroidToolkit.png";
+import macTheRipper from "../images/projects/minified/YoutubeDownloader.png";
 
-const project1 = {
+const project4 = {
     heading: "Android Toolkit",
     description:
         "A cross platform desktop app written in Typescript/Node using React and Electron. Android Toolkit is a GUI for adb and can be used to modify any android device.",
@@ -41,7 +41,7 @@ const project3 = {
     index: 3,
 };
 
-const project4 = {
+const project1 = {
     heading: "Youtube Downloader",
     description:
         "A simple desktop application that downloads video/audio from youtube videos. This app was built with Electron, Typescript/Node, and React.",
