@@ -6,11 +6,12 @@ import stackoverflow from '../images/stackoverflow.png';
 import linkedin from '../images/linkedin.png';
 
 const Footer = () => {
+    const date = new Date();
     return (
         <footer id='footer'>
             <Container>
                 <Row class='align-items-center'>
-                    <Col size='col-6 fs-5'>{'Anthony Gress 2021 ©'}</Col>
+                    <Col size='col-6 fs-5'>{`Anthony Gress ${date.getFullYear()} ©`}</Col>
                     <Col size='col-6 fs-5 d-flex justify-content-end'>
                         <div className='footer-icon-wrapper'>
                             <a href='https://github.com/AnthonyGress' target='_blank' rel='noreferrer'>
