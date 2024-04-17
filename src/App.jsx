@@ -20,6 +20,8 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+import { ColorIdPrivacyPolicy } from './components/ColorIdPrivacyPolicy';
+import { ColorIdTerms } from './components/ColorIdTerms';
 
 function App() {
   return (
@@ -50,25 +52,19 @@ function App() {
             <Header />
             <Testimonials />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/resume"}>
-            <Header />
-            <Resume />
-          </Route>
           <Route path={process.env.PUBLIC_URL + "/contact"}>
-            <NavbarContent />
+            <Header />
             <Contact />
           </Route>
-          <Route path={process.env.PUBLIC_URL + "/card"}>
+          <Route path={process.env.PUBLIC_URL + "/color-id/privacy-policy"}>
             <Header />
-            <BusinessCard />
+            <ColorIdPrivacyPolicy />
+          </Route>
+          <Route path={process.env.PUBLIC_URL + "/color-id/terms"}>
+            <Header />
+            <ColorIdTerms />
           </Route>
           <Redirect from="*" to="/" />
-          {/* <Route path="/">
-            <Hero />
-          </Route> */}
-          {/* <Route path="/mycard">
-              <BusinessCard />
-            </Route> */}
         </Switch>
         <Footer />
       </main>
