@@ -22,6 +22,7 @@ import {
 } from "react-router-dom";
 import { ColorIdPrivacyPolicy } from './components/ColorIdPrivacyPolicy';
 import { ColorIdTerms } from './components/ColorIdTerms';
+import ColorID from './components/ColorID';
 
 function App() {
   return (
@@ -55,6 +56,10 @@ function App() {
           <Route path={process.env.PUBLIC_URL + "/contact"}>
             <Header />
             <Contact />
+          </Route>
+          <Route path={process.env.PUBLIC_URL + "/color-id"}>
+            <Header />
+            <ColorID />
           </Route>
           <Route path={process.env.PUBLIC_URL + "/color-id/privacy-policy"}>
             <Header />

@@ -42,6 +42,9 @@ const NavbarContent = (props) => {
                         <LinkContainer exact={true} to='/portfolio'>
                             <Nav.Link className='fs-5'>Portfolio</Nav.Link>
                         </LinkContainer>
+                        <LinkContainer exact={true} to='/color-id'>
+                            <Nav.Link className='fs-5'>Color ID</Nav.Link>
+                        </LinkContainer>
                         <LinkContainer exact={true} to='/testimonials'>
                             <Nav.Link className='fs-5'>Testimonials</Nav.Link>
                         </LinkContainer>
