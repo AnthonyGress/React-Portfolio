@@ -78,6 +78,11 @@ img {
   border-color: var(--btn-color) !important;
 }
 
+.btn-secondary {
+  background-color: transparent !important;
+  border-color: white !important;
+}
+
 .btn-primary:focus,
 .btn-primary:hover,
 .btn-primary:active,
